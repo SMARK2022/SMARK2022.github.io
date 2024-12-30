@@ -24,6 +24,8 @@ My research interests lie at the intersection of:
 My current research focuses on developing advanced machine learning approaches to address fundamental challenges in imaging systems. I am particularly interested in applying computational techniques to enhance image quality while reducing hardware constraints and acquisition costs. This work spans multiple imaging modalities, from multispectral to medical imaging, with the ultimate goal of making high-quality imaging more accessible and efficient.
 
 Through the synergy of machine learning and compressed sensing, I aim to push the boundaries of what's possible in computational imaging, working towards solutions that can have meaningful impact in both scientific and clinical applications.
+
+
 ---
 
 
