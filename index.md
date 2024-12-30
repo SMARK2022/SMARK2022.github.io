@@ -8,7 +8,7 @@ layout: page
 
 Here is **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
-I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://cyyhit.github.io/). Our **ICLR-2025** submission has received review scores of 8, 8, 6, and 6 (average 7.0, top 7.49%). I welcome any discussion on research or collaboration; feel free to contact me at 220810225 [at] stu.hit.edu.cn.
+I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://cyyhit.github.io/). My **ICLR-2025** submission has received review scores of 8, 8, 6, and 6 (average 7.0, top 7.49%). I welcome any discussion on research or collaboration; feel free to contact me at 220810225 [at] stu.hit.edu.cn.
 
 ---
 
