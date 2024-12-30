@@ -35,4 +35,4 @@ Through the synergy of machine learning and compressed sensing, I aim to push th
 * **Meritorious Winner (top 6%)** - Mathematical Contest in Modeling (MCM)   *Awarded by COMAP in 2024*
 * **First Prize** - China Undergraduate Mathematical Contest (Non-Mathematics Category)   *Awarded by China Mathematical Society in 2023*
 * **First Prize** - Guangdong Provincial Mathematical Modeling Competition   *Awarded by Guangdong Education Department in 2023*
-* **Outstanding Project Award (1st Place)** - First-Year Research Project in Computer Science   *Awarded by HIT(SZ) in 2023*
+* **Outstanding Project Award (1st Place)** - First-Year Research Project in Computer Science   *Awarded by HITSZ in 2023*
