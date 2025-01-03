@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# About Me
+## About Me
 
 <img src="assets\images\fav.jpg" class="floatpic">
 
