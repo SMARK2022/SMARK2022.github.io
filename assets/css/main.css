@@ -2827,7 +2827,7 @@ screen and (max-height:300px) {
   }
 }
 
-@media only screen and (min-width:37.5em) {
+@media only screen and (min-width:50em) {
   html {
     font-size: 95%;
   }
@@ -2967,19 +2967,19 @@ screen and (max-height:300px) {
   #main article {
     display: inline;
     float: left;
-    width: 37.5%;
+    width: 50%;
   }
 
   #index {
     display: inline;
     float: left;
-    width: 37.5%;
+    width: 50%;
   }
 
   .related-articles {
     display: inline;
     float: left;
-    width: 37.5%;
+    width: 50%;
     margin-left: 33.333333333333336%;
     margin-right: 29.166666666666668%;
   }
@@ -2987,7 +2987,7 @@ screen and (max-height:300px) {
   .footer-wrap footer {
     display: inline;
     float: left;
-    width: 37.5%;
+    width: 50%;
     margin-left: 33.333333333333336%;
     margin-right: 29.166666666666668%;
   }
