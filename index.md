@@ -8,7 +8,9 @@ layout: page
 
 Here is **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
-I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://cyyhit.github.io/). My **ICLR-2025** submission has received review scores of 8, 8, 6, and 6 (average 7.0, top 4.79%). I welcome any discussion on research or collaboration; feel free to contact me at 220810225@stu.hit.edu.cn.
+I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://cyyhit.github.io/). 
+
+My **ICLR-2025** submission has received review scores of 8, 8, 6, and 6 (average 7.0, top 4.79%). I welcome any discussion on research or collaboration; feel free to contact me at 220810225@stu.hit.edu.cn.
 
 ---
 
@@ -31,7 +33,7 @@ Through the synergy of machine learning and compressed sensing, I aim to push th
 
 
 ## Awards
-* **Challenge Cup National Competition Special Prize** - National Competition Series by Chinese Communist Youth League   *Awarded by CCYL in 2024*
+* **Challenge Cup National Competition First Prize** - National Competition Series by Chinese Communist Youth League   *Awarded by CCYL in 2024*
 * **Meritorious Winner (top 6%)** - Mathematical Contest in Modeling (MCM)   *Awarded by COMAP in 2024*
 * **First Prize** - China Undergraduate Mathematical Contest (Non-Mathematics Category)   *Awarded by China Mathematical Society in 2023*
 * **First Prize** - Guangdong Provincial Mathematical Modeling Competition   *Awarded by Guangdong Education Department in 2023*
