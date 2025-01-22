@@ -12,7 +12,16 @@ I am an undergraduate student in Data Science at Harbin Institute of Technology,
 
 My **ICLR-2025** submission has received review scores of 8, 8, 6, and 6 (average 7.0, top 4.79%). I welcome any discussion on research or collaboration; feel free to contact me at 220810225@stu.hit.edu.cn.
 
----
+## Publications
+
+- **Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement**  
+    <small>Haijin Zeng, Benteng Sun, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
+    <small><em>ICLR 2025 (Accepted)</em></small><br>
+    A predict-and-unmixing-driven subspace refining framework (PSR-SCI) for spectral compressive imaging. It adaptively leverages pre-trained diffusion models to refine high-frequency details with minimal MSI data.  
+    <small>Keywords: spectral imaging, subspace, diffusion, fine-tune</small>
+
+
+
 
 ## Research Interests
 
