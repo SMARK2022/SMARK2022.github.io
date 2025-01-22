@@ -33,8 +33,21 @@ Through the synergy of machine learning and compressed sensing, I aim to push th
 
 
 ## Awards
-* **Challenge Cup National Competition First Prize** - National Competition Series by Chinese Communist Youth League   *Awarded by CCYL in 2024*
-* **Meritorious Winner (top 6%)** - Mathematical Contest in Modeling (MCM)   *Awarded by COMAP in 2024*
-* **First Prize** - China Undergraduate Mathematical Contest (Non-Mathematics Category)   *Awarded by China Mathematical Society in 2023*
-* **First Prize** - Guangdong Provincial Mathematical Modeling Competition   *Awarded by Guangdong Education Department in 2023*
-* **Outstanding Project Award (1st Place)** - First-Year Research Project in Computer Science   *Awarded by HITSZ in 2023*
+
+* **First Prize (Awarded 10k RMB)** — The 19th “Challenge Cup” National College Students’ Extracurricular Academic and Scientific Works Competition – “Challenge Leader” Special Event  
+    *Awarded by Ministry of Education, PRC in 2024*
+
+* **Meritorious Winner (Top 6%)** — Mathematical Contest in Modeling (MCM)  
+    *Awarded by COMAP in 2024*
+
+* **First Prize** — The 15th Chinese Mathematics Competition for College Students  
+    *Awarded by China Mathematical Society in 2023*
+
+* **First Prize** — Guangdong Division of the China Undergraduate Mathematical Contest in Modelling  
+    *Awarded by Department of Education of Guangdong Province in 2023*
+
+* **First Prize (Ranked 1st out of 83 Projects)** — First Prize in the 2022 Freshman Annual Project Plan  
+    *Awarded by HITSZ in 2023*
+
+* **Second Prize (Top 5% out of 3,811 Teams)** — The 11th "TipDM Cup" Data Mining Challenge  
+    *Awarded by Guangdong Society for Industrial and Applied Mathematics in 2022*
