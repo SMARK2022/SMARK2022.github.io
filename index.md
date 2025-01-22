@@ -8,7 +8,7 @@ layout: page
 
 Here is **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
-I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://cyyhit.github.io/). 
+I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ). 
 
 My **ICLR-2025** submission has received review scores of 8, 8, 6, and 6 (average 7.0, top 4.79%). I welcome any discussion on research or collaboration; feel free to contact me at 220810225@stu.hit.edu.cn.
 
@@ -36,18 +36,13 @@ Through the synergy of machine learning and compressed sensing, I aim to push th
 
 * **First Prize (Awarded 10k RMB)** — The 19th “Challenge Cup” National College Students’ Extracurricular Academic and Scientific Works Competition – “Challenge Leader” Special Event  
     *Awarded by Ministry of Education, PRC in 2024*
-
 * **Meritorious Winner (Top 6%)** — Mathematical Contest in Modeling (MCM)  
     *Awarded by COMAP in 2024*
-
 * **First Prize** — The 15th Chinese Mathematics Competition for College Students  
     *Awarded by China Mathematical Society in 2023*
-
 * **First Prize** — Guangdong Division of the China Undergraduate Mathematical Contest in Modelling  
     *Awarded by Department of Education of Guangdong Province in 2023*
-
 * **First Prize (Ranked 1st out of 83 Projects)** — First Prize in the 2022 Freshman Annual Project Plan  
     *Awarded by HITSZ in 2023*
-
 * **Second Prize (Top 5% out of 3,811 Teams)** — The 11th "TipDM Cup" Data Mining Challenge  
     *Awarded by Guangdong Society for Industrial and Applied Mathematics in 2022*
