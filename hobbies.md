@@ -80,7 +80,7 @@ title: Hobbies
 <br>
 
 
-## 🏃♂️ Sports & Fitness
+## 🏃 Sports & Fitness
 
 ### 🥋 Martial Arts
 - Core Member of University Karate Team  
