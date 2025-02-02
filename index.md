@@ -15,10 +15,10 @@ Welcome any discussion on research or collaboration; feel free to contact me at 
 ## Publications
 
 - **Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement**  
-    <small>Haijin Zeng, Benteng Sun, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
-    <small><em>ICLR 2025 (Accepted) Received review scores of 8, 8, 6, and 6 (average 7.0, top 4.79%).</em></small><br>
-    A predict-and-unmixing-driven subspace refining framework (PSR-SCI) for spectral compressive imaging. It adaptively leverages pre-trained diffusion models to refine high-frequency details with minimal MSI data.  
-    <small>Keywords: spectral imaging, subspace, diffusion, fine-tune</small>
+    <small>Haijin Zeng, **Benteng Sun** (co-first), Yongyong Chen, Jingyong Su, Yong Xu</small><br>
+    <small><em>ICLR 2025 (Accepted) • Average score 7.0/10 (Top 4.79%) • Reviews: 8,8,6,6</em></small><br>
+    Proposed the first framework combining spectral unmixing with diffusion models for snapshot compressive imaging. It adaptively leverages pre-trained diffusion models to refine high-frequency details with minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
+    <small>Keywords: spectral imaging, subspace decomposition, diffusion refinement, hardware-algorithm co-design</small>
 
 
 
@@ -41,17 +41,39 @@ Through the synergy of machine learning and compressed sensing, I aim to push th
 
 
 
-## Awards
+## Honors & Awards
 
-* **First Prize (Awarded 10k RMB)** — The 19th “Challenge Cup” National College Students’ Extracurricular Academic and Scientific Works Competition – “Challenge Leader” Special Event  
-    *Awarded by Ministry of Education, PRC in 2024*
-* **Meritorious Winner (Top 6%)** — Mathematical Contest in Modeling (MCM)  
-    *Awarded by COMAP in 2024*
-* **First Prize** — The 15th Chinese Mathematics Competition for College Students  
-    *Awarded by China Mathematical Society in 2023*
-* **First Prize** — Guangdong Division of the China Undergraduate Mathematical Contest in Modelling  
-    *Awarded by Department of Education of Guangdong Province in 2023*
-* **First Prize (Ranked 1st out of 83 Projects)** — First Prize in the 2022 Freshman Annual Project Plan  
-    *Awarded by HITSZ in 2023*
-* **Second Prize (Top 5% out of 3,811 Teams)** — The 11th "TipDM Cup" Data Mining Challenge  
-    *Awarded by Guangdong Society for Industrial and Applied Mathematics in 2022*
+### Awards
+
+* **First Prize (National Level)**  
+  The 19th "Challenge Cup" Academic Competition - "Challenge Leader" Track  
+  *Ministry of Education, China • 2024 • Awarded 10,000 RMB*
+
+* **Meritorious Winner (Top 6%)**  
+  Mathematical Contest in Modeling (MCM)  
+  *COMAP, USA • 2024*
+
+* **First Prize (Top 8%)**  
+  15th Chinese Mathematics Competition  
+  *China Mathematical Society • 2023*
+
+* **First Prize (Top 9%)**  
+  China Undergraduate Mathematical Modeling Contest - Guangdong Division  
+  *Guangdong Education Department • 2023*
+
+* **Champion (1st/83)**  
+  Freshman Annual Project Plan Competition  
+  *HITSZ • 2023*
+
+### Scholarships
+
+* **High-Level Innovation Award (Top 0.1%)**  
+  Scientific Research Competition Award Fund  
+  *Harbin Institute of Technology • 2024 • 50,000 RMB*
+
+* **Second-Class Scholarship (Top 10\%)**  
+  Undergraduate Academic Achievement Award  
+  *HITSZ • 2023 & 2024*
+
+
+---
