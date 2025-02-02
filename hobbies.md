@@ -76,6 +76,8 @@ title: Hobbies
     <img src="../assets/images/albums/Comet_Night_Sky.webp" style="max-width: max(15%, 120px); height: auto;">
 </div>
 
+<br>
+
 
 ## 🏃♂️ Sports & Fitness
 
