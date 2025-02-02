@@ -57,6 +57,7 @@ title: Hobbies
     <img src="../assets/images/albums/Wetland_Scenery.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Mountain_Landscape_Bridge.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Rose_Nebula.webp" style="max-width: max(15%, 120px); height: auto;">
+    <img src="../assets/images/albums/Full_Moon_Night.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Cat_Sleepling.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/City_Night_Skyline.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Desert_View_From_Car.webp" style="max-width: max(15%, 120px); height: auto;">
@@ -70,7 +71,6 @@ title: Hobbies
     <img src="../assets/images/albums/Spices_Market.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Train_Station_Platform.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Trees_Reflecting_In_Lake.webp" style="max-width: max(15%, 120px); height: auto;">
-    <img src="../assets/images/albums/Full_Moon_Night.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Train.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/M45_Star_Cluster.webp" style="max-width: max(15%, 120px); height: auto;">
     <img src="../assets/images/albums/Comet_Night_Sky.webp" style="max-width: max(15%, 120px); height: auto;">
