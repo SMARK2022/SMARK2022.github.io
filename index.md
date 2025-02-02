@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# 👋 Welcome to My Personal Website!
+## 👋 Welcome to My Personal Website!
 <br>
 
 ## About Me
