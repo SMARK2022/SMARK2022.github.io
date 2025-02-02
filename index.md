@@ -2,6 +2,8 @@
 layout: page
 ---
 
+# 👋 Welcome to My Personal Website!
+
 ## About Me
 
 <img src="assets\images\fav.jpg" class="floatpic">
