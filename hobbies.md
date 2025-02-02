@@ -32,7 +32,7 @@ Documented over 50 campus events through photography/videography for various org
 
 <div class="photo-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(max(15%, 120px), 1fr)); gap: 8px; margin: 20px 0;">
 {% for image in site.static_files %}
-{% if image.path contains './assets/images/albums' %}
+{% if image.path contains './assets/images/albums/' %}
 <img src="{{ image.path | relative_url }}" alt="Photography work" style="width: 100%; height: auto; border-radius: 4px;">
 {% endif %}
 {% endfor %}
