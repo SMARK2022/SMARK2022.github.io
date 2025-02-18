@@ -9,7 +9,7 @@ title: Hobbies
 
 ## 🤝 Volunteer Work
 - **Service Hours**:  
-  Shenzhen Volunteer: 36.25 hrs | iVolunteer: 87.07 hrs
+  Shenzhen Volunteer: 36.25 hrs | iVolunteer: 87.07 hrs | **Total**: 123.32 hrs
 - **Roles**:  
   Publicity Department Member, Harbin Institute of Technology (Shenzhen) Volunteer Association
 
