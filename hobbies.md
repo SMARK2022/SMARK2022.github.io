@@ -88,5 +88,4 @@ title: Hobbies
 🥉 3rd Place, 2024 Guangdong Collegiate Karate Championship (Men's 79+kg Division)
 
 ### 🏔️ Athletic Pursuits
-- Finalist in Nanshan District Youth Orienteering Challenge
-- Experienced Mountain Expedition Organizer
+- Outdoor hiking enthusiast
