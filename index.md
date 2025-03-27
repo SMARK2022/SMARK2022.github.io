@@ -21,8 +21,14 @@ Feel free to contact me at 220810225@stu.hit.edu.cn.
 
 - **[Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement](assets/doc/9358_Spectral_Compressive_Imag.pdf)**  
       <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
-<div style="display: flex; align-items: flex-start;">
-  <img src="assets\images\PSR-SCI_pipeline_1.jpg" alt="PSR-SCI Pipeline" style="width: 300px; margin-right: 15px;">
+<div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
+  <div>
+    <img src="assets\images\PSR-SCI_pipeline_1.jpg" alt="PSR-SCI Pipeline" style="width: 100%;">
+    <div>
+      <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank">[Paper]</a>
+      <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank">[Code]</a>
+    </div>
+  </div>
   <div>
       <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small><br>
       A novel framework for SCI that adapts RGB diffusion models to recover high-frequency details using minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
