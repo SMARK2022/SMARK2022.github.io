@@ -20,11 +20,15 @@ Feel free to contact me at 220810225@stu.hit.edu.cn.
 ## Publications
 
 - **[Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement](assets/doc/9358_Spectral_Compressive_Imag.pdf)**  
-    <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
-    <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) •  Top 4.79%</span></em></small><br>
-    PSR-SCI is a novel framework for SCI that produces a coarse MSI via an efficient predictor, then refines it through a reversible spectral embedding that adapts RGB diffusion models to recover high-frequency details using minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
-    <small>Keywords: spectral imaging, subspace decomposition, diffusion refinement, hardware-algorithm co-design</small>
-
+      <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
+<div style="display: flex; align-items: flex-start;">
+  <img src="assets\images\PSR-SCI_pipeline_1.jpg" alt="PSR-SCI Pipeline" style="width: 200px; margin-right: 15px;">
+  <div>
+      <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) •  Top 4.79%</span></em></small><br>
+      PSR-SCI is a novel framework for SCI that produces a coarse MSI via an efficient predictor, then refines it through a reversible spectral embedding that adapts RGB diffusion models to recover high-frequency details using minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
+      <small>Keywords: spectral imaging, subspace decomposition, diffusion refinement, hardware-algorithm co-design</small>
+  </div>
+</div>
 
 
 
