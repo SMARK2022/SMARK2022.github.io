@@ -13,14 +13,16 @@ Here is **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
 I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ). 
 
-Welcome any discussion on research or collaboration; feel free to contact me at 220810225@stu.hit.edu.cn.
+I am actively seeking PhD opportunities for Fall 2026 in the fields of machine learning, computational imaging, and related areas. I welcome any potential discussions or collaborations.
+
+Feel free to contact me at 220810225@stu.hit.edu.cn.
 
 ## Publications
 
 - **[Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement](assets/doc/9358_Spectral_Compressive_Imag.pdf)**  
-    <small>Haijin Zeng*, **Benteng Sun***, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
+    <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
     <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) •  Top 4.79%</span></em></small><br>
-    Proposed the first framework combining spectral unmixing with diffusion models for snapshot compressive imaging. It adaptively leverages pre-trained diffusion models to refine high-frequency details with minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
+    PSR-SCI is a novel framework for SCI that produces a coarse MSI via an efficient predictor, then refines it through a reversible spectral embedding that adapts RGB diffusion models to recover high-frequency details using minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
     <small>Keywords: spectral imaging, subspace decomposition, diffusion refinement, hardware-algorithm co-design</small>
 
 
