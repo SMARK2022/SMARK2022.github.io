@@ -21,7 +21,7 @@ Feel free to contact me at 220810225@stu.hit.edu.cn.
 
 - **Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement**  
   <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small> <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><span style="color:blue">[Paper]</span></a><a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><span style="color:blue">[Code]</span></a><br>
-  <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small><br>
+  <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small>
 <div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
   <div>
     <img src="assets\images\PSR-SCI_pipeline_1.jpg" alt="PSR-SCI Pipeline" style="width: 100%;">
