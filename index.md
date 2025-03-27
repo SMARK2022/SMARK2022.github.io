@@ -17,9 +17,9 @@ Welcome any discussion on research or collaboration; feel free to contact me at 
 
 ## Publications
 
-- **Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement**  
-    <small>Haijin Zeng, **Benteng Sun** (co-first), Yongyong Chen, Jingyong Su, Yong Xu</small><br>
-    <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Average score 7.0/10 (Top 4.79%) • Reviews: 8,8,6,6</span></em></small><br>
+- **[Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement](assets/doc/9358_Spectral_Compressive_Imag.pdf)**  
+    <small>Haijin Zeng*, **Benteng Sun***, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
+    <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) •  Top 4.79%</span></em></small><br>
     Proposed the first framework combining spectral unmixing with diffusion models for snapshot compressive imaging. It adaptively leverages pre-trained diffusion models to refine high-frequency details with minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
     <small>Keywords: spectral imaging, subspace decomposition, diffusion refinement, hardware-algorithm co-design</small>
 
