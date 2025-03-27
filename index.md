@@ -26,8 +26,9 @@ Feel free to contact me at 220810225@stu.hit.edu.cn.
   <div>
     <img src="assets\images\PSR-SCI_pipeline_1.jpg" alt="PSR-SCI Pipeline" style="width: 100%;">
     <div>
-      <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank">[Paper]</a>
-      <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank">[Code]</a>
+      <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><span style="color:blue">[Paper]</span></a>
+      <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><span style="color:blue">[Code]</span></a>
+    </div>
     </div>
   </div>
   <div>
