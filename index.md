@@ -29,7 +29,6 @@ Feel free to contact me at 220810225@stu.hit.edu.cn.
       <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><span style="color:blue">[Paper]</span></a>
       <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><span style="color:blue">[Code]</span></a>
     </div>
-    </div>
   </div>
   <div>
       A novel framework for SCI that adapts RGB diffusion models to recover high-frequency details using minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
