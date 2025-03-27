@@ -12,8 +12,7 @@ title: Hobbies
   Shenzhen Volunteer: 36.25 hrs | iVolunteer: 87.07 hrs | **Total**: 123.32 hrs
 - **Roles**:  
   Publicity Department Member, Harbin Institute of Technology (Shenzhen) Volunteer Association
-
-  **Key Responsibilities**:  
+- **Key Responsibilities**:  
   Event documentation and promotion, participating in various community service initiatives including educational support programs, public welfare lectures, and neighborhood services.
 
 ## 📸 Photography

@@ -50,35 +50,22 @@ Through the synergy of machine learning and compressed sensing, I aim to push th
 
 ### Awards
 
-* **First Prize (National Level)**  
-  The 19th "Challenge Cup" Academic Competition - "Challenge Leader" Track  
-  *Ministry of Education, China • 2024 • Awarded 10,000 RMB*
+* **First Prize (National Level)** The 19th "Challenge Cup" Academic Competition - "Challenge Leader" Track *Ministry of Education, China • 2024 • Awarded 10,000 RMB*
 
-* **Meritorious Winner (Top 6%)**  
-  Mathematical Contest in Modeling (MCM)  
-  *COMAP, USA • 2024*
+* **Meritorious Winner (Top 6%)** Mathematical Contest in Modeling (MCM) *COMAP, USA • 2024*
 
-* **First Prize (Top 8%)**  
-  15th Chinese Mathematics Competition  
-  *China Mathematical Society • 2023*
+* **First Prize (Top 8%)** 15th Chinese Mathematics Competition *China Mathematical Society • 2023*
 
-* **First Prize (Top 9%)**  
-  China Undergraduate Mathematical Modeling Contest - Guangdong Division  
-  *Guangdong Education Department • 2023*
+* **First Prize (Top 9%)** China Undergraduate Mathematical Modeling Contest - Guangdong Division  *Guangdong Education Department • 2023*
 
-* **Champion (1st/83)**  
-  Freshman Annual Project Plan Competition  
+* **Champion (1st/83)** Freshman Annual Research Project Plan  
   *HITSZ • 2023*
 
 ### Scholarships
 
-* **High-Level Innovation Award (Top 0.1%)**  
-  Scientific Research Competition Award Fund  
-  *Harbin Institute of Technology • 2024 • 50,000 RMB*
+* **High-Level Innovation Award (Top 0.1%)** Scientific Research Competition Award Fund *Harbin Institute of Technology • 2024 • 50,000 RMB*
 
-* **Second-Class Scholarship (Top 10\%)**  
-  Undergraduate Academic Achievement Award  
-  *HITSZ • 2023 & 2024*
+* **Second-Class Scholarship (Top 10%)** Undergraduate Academic Achievement Award *HITSZ • 2023 & 2024*
 
 
 ---
