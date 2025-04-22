@@ -3,23 +3,28 @@ layout: page
 ---
 
 # 👋 Welcome to My Personal Website!
+
 ---
 
 ## About Me
 
 <img src="assets\images\fav.jpg" class="floatpic">
 
-Here is **Benteng Sun (SMARK, 孙奔腾)**.<br>
+Hi, I'm **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
-I am an undergraduate student in Data Science at Harbin Institute of Technology, Shenzhen (Class of 2022, expected graduation 2026). Currently, I am conducting research in compressed sensing and image processing under the guidance of [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ). 
+I'm an undergraduate student majoring in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (expected graduation in 2026). My research focuses on machine learning, compressed sensing, and computational imaging under the supervision of [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
 
-**I am actively seeking PhD opportunities for Fall 2026** in the fields of machine learning, computational imaging, and related areas. I welcome any potential discussions or collaborations.
+I have published research at prestigious venues like ICLR and participated in top-tier competitions. I'm currently exploring innovative computational methods to tackle challenging problems in image reconstruction, spectral imaging, and medical imaging.
 
-Feel free to contact me at 220810225@stu.hit.edu.cn.
+**I am actively seeking PhD opportunities for Fall 2026**, aiming to deepen my research in advanced machine learning and computational imaging.
 
-## Publications
+Feel free to contact me at **220810225@stu.hit.edu.cn**.
 
-- **Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement**  
+---
+
+## Selected Publications
+
+### Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement  
   <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small> <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><span style="color:blue">[Paper]</span></a><a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><span style="color:blue">[Code]</span></a><br>
   <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small>
 <div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
@@ -33,63 +38,62 @@ Feel free to contact me at 220810225@stu.hit.edu.cn.
 </div>
 
 
+---
 
-## Research Interests
+## Research Experience & Interests
 
-My research interests lie at the intersection of:
-- Machine Learning
-- Compressed Sensing
-- Image Reconstruction
-- Multispectral Imaging
-- Medical Imaging
+### Research Projects
 
-My current research focuses on developing advanced machine learning approaches to address fundamental challenges in imaging systems. I am particularly interested in applying computational techniques to enhance image quality while reducing hardware constraints and acquisition costs. This work spans multiple imaging modalities, from multispectral to medical imaging, with the ultimate goal of making high-quality imaging more accessible and efficient.
+- **Prior-guided One-step Diffusion for Fast MRI Reconstruction** *(Submitted to NeurIPS 2025)*  
+  Proposed a robust diffusion framework integrating structural prediction and semantic-aware refinement, significantly outperforming existing approaches under high acceleration.
 
-Through the synergy of machine learning and compressed sensing, I aim to push the boundaries of what's possible in computational imaging, working towards solutions that can have meaningful impact in both scientific and clinical applications.
+- **Efficient Low-Rank and Sparse Model Compression** *(Oct 2023–Feb 2024)*  
+  Developed a Frank-Wolfe algorithm-based approach, achieving 10× compression on AlexNet with minimal accuracy loss.
 
+- **Unified Low-Rank Adaptation Framework (LoRA variants)** *(Jan–Apr 2024)*  
+  Conducted comparative analysis and proposed a unified abstraction for efficient large-model fine-tuning techniques.
+
+### Research Interests
+
+My work bridges theoretical innovation and practical algorithmic solutions, focusing on:
+
+- **Machine Learning & Deep Learning**
+- **Compressed Sensing & Sparse Optimization**
+- **Image Reconstruction & Enhancement**
+- **Multispectral and Medical Imaging**
+
+I aim to leverage computational advancements to develop scalable, efficient imaging technologies, facilitating their adoption in both scientific research and clinical practice.
 
 ---
 
+## Competitions & Projects
 
+- **The 19th "Challenge Cup" National Competition (First Prize)**  
+  Achieved over 95% accuracy in radar-infrared fused object detection under limited data conditions.
+
+- **NTIRE Challenge (CVPR 2025)**  
+  Achieved 4th place in visual quality ranking by developing a novel diffusion model, compressed from 1.77B to 2.2M parameters while maintaining high performance.
+
+- **MetaMusic: Cross-Modal Music-Driven Visual Generation** *(Top 1/83 in Freshman Project)*  
+  Developed an innovative cross-modal generation system using CLIP embeddings for music-to-image translation.
+
+---
 
 ## Honors & Awards
 
-### Awards
-
-* **First Prize (National Level)** 
-  The 19th "Challenge Cup" Academic Competition - "Challenge Leader" Track 
-  
-  *Ministry of Education, China • 2024 • Awarded 10,000 RMB*
-
-* **Meritorious Winner (Top 6%)** 
-  Mathematical Contest in Modeling (MCM) 
-  
-  *COMAP, USA • 2024*
-
-* **First Prize (Top 8%)** 
-  15th Chinese Mathematics Competition 
-  
-  *China Mathematical Society • 2023*
-
-* **First Prize (Top 9%)** 
-  China Undergraduate Mathematical Modeling Contest - Guangdong Division  
-  
-  *Guangdong Education Department • 2023*
-
-* **Champion (1st/83)** 
-  Freshman Annual Research Project Plan  
-  
-  *HITSZ • 2023*
+- **First Prize (National)**, "Challenge Cup" (MoE, PRC, 2024)
+- **Meritorious Winner (Top 6%)**, Mathematical Contest in Modeling (COMAP, USA, 2024)
+- **First Prize**, 15th Chinese Mathematics Competition (2023)
+- **Champion (1/83)**, Freshman Annual Research Project (HITSZ, 2023)
 
 ### Scholarships
 
-* **High-Level Innovation Award (Top 0.1%)** Scientific Research Competition Award Fund 
-  
-  *Harbin Institute of Technology • 2024 • 50,000 RMB*
-
-* **Second-Class Scholarship (Top 10%)** Undergraduate Academic Achievement Award 
-  
-  *HITSZ • 2023 & 2024*
-
+- **High-Level Innovation Award (Top 0.1%)**, HIT (2024, Awarded 50,000 RMB)
+- **Second-Class Scholarship**, Undergraduate Academic Excellence Award (2023 & 2024, HITSZ)
 
 ---
+
+Feel free to explore my [GitHub](https://github.com/SMARK2022) for open-source contributions, or connect via [email](mailto:220810225@stu.hit.edu.cn) for potential collaborations!
+
+Thanks for visiting! 😊
+
