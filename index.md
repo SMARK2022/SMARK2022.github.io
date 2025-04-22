@@ -30,7 +30,7 @@ Feel free to contact me at **220810225@stu.hit.edu.cn**.
   <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small>
 <div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
   <div>
-    <img src="assets\images\PSR-SCI_pipeline_1.jpg" alt="PSR-SCI Pipeline" style="width: 100%;">
+    <img src="assets\images\PSR-SCI.png" alt="PSR-SCI Pipeline" style="width: 100%;">
   </div>
   <div>
       Developed a novel subspace diffusion refinement framework for SCI to recover high-frequency details using minimal MSI data reconstruction. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
