@@ -18,7 +18,7 @@ I have published research at prestigious venues like ICLR and participated in to
 
 **I am actively seeking PhD opportunities for Fall 2026**, aiming to deepen my research in advanced machine learning and computational imaging.
 
-Feel free to contact me at **220810225@stu.hit.edu.cn**.
+Feel free to contact me at **SMARK2019@outlook.com**.
 
 ---
 
@@ -94,7 +94,7 @@ I aim to leverage computational advancements to develop scalable, efficient imag
 
 ---
 
-Feel free to explore my [GitHub](https://github.com/SMARK2022) for open-source contributions, or connect via [email](mailto:220810225@stu.hit.edu.cn) for potential collaborations!
+Feel free to explore my [GitHub](https://github.com/SMARK2022) for open-source contributions, or connect via [email](mailto:SMARK2019@outlook.com) for potential collaborations!
 
 Thanks for visiting! 😊
 
