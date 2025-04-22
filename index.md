@@ -8,7 +8,7 @@ layout: page
 
 ## About Me
 
-<img src="assets\images\fav.jpg" class="floatpic">
+<img src="assets\images\证件照.jpeg" class="floatpic">
 
 Hi, I'm **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
