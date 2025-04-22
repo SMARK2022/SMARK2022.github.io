@@ -25,14 +25,15 @@ Feel free to contact me at **220810225@stu.hit.edu.cn**.
 ## Selected Publications
 
 ### Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement  
-  <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small> <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><span style="color:blue">[Paper]</span></a><a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><span style="color:blue">[Code]</span></a><br>
+  <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small>         <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><strong>📄 Paper</strong></a> | 
+        <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><strong>💻 Code</strong></a><br>
   <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small>
 <div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
   <div>
     <img src="assets\images\PSR-SCI_pipeline_1.jpg" alt="PSR-SCI Pipeline" style="width: 100%;">
   </div>
   <div>
-      A novel framework for SCI that adapts RGB diffusion models to recover high-frequency details using minimal MSI data. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
+      Developed a novel subspace diffusion refinement framework for SCI to recover high-frequency details using minimal MSI data reconstruction. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
       <small>Keywords: spectral imaging, subspace decomposition, diffusion refinement, hardware-algorithm co-design</small>
   </div>
 </div>
@@ -75,7 +76,7 @@ I aim to leverage computational advancements to develop scalable, efficient imag
   Achieved 4th place in visual quality ranking by developing a novel diffusion model, compressed from 1.77B to 2.2M parameters while maintaining high performance.
 
 - **MetaMusic: Cross-Modal Music-Driven Visual Generation** *(Top 1/83 in Freshman Project)*  
-  Developed an innovative cross-modal generation system using CLIP embeddings for music-to-image translation.
+  Developed an innovative cross-modal generation system using CLIP embeddings for music-to-image translation. [💻 **Project**](https://github.com/SMARK2022/MetaMusic)
 
 ---
 
