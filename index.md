@@ -45,9 +45,6 @@ Feel free to contact me at **SMARK2019@outlook.com**.
 
 ### Research Projects
 
-- **Prior-guided One-step Diffusion for Fast MRI Reconstruction** *(Submitted to NeurIPS 2025)*  
-  Proposed a robust diffusion framework integrating structural prediction and semantic-aware refinement, significantly outperforming existing approaches under high acceleration.
-
 - **Efficient Low-Rank and Sparse Model Compression** *(Oct 2023–Feb 2024)*  
   Developed a Frank-Wolfe algorithm-based approach, achieving 10× compression on AlexNet with minimal accuracy loss.
 
