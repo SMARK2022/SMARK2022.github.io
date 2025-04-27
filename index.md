@@ -27,9 +27,7 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
 ## Selected Publications
 
 ### Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement  
-  <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small>         
-  <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><strong>📄 Paper</strong></a> | 
-  <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><strong>💻 Code</strong></a><br>
+  <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small><a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><strong>📄 Paper</strong></a> | <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><strong>💻 Code</strong></a><br>
   <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small>
 <div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
   <div>
