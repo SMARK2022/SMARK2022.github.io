@@ -36,7 +36,7 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
   <div>
       Developed a novel subspace diffusion refinement framework for spectral compressive imaging (SCI), recovering high-frequency details from minimal measurements.  
       Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over existing diffusion models.  
-      <small>Keywords: spectral imaging, sparsity modelling, diffusion refinement, hardware-algorithm co-design</small>
+      <small>Keywords: spectral imaging, sparsity modelling, diffusion refinement</small>
   </div>
 </div>
 
