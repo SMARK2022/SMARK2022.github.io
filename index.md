@@ -12,15 +12,15 @@ layout: page
 
 Hi, I'm **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
-I'm an undergraduate student majoring in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (expected graduation in 2026).  
-My research focuses on machine learning, sparse representation, and computational imaging under the supervision of [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
+I'm an undergraduate student in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (graduating in 2026).  
+My research centers on machine learning, sparse representation, and computational imaging, advised by [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
 
-I have published research at prestigious venues like ICLR and participated in top-tier competitions.  
-Currently, I am exploring novel computational paradigms for efficient and controllable generation, aiming to design scalable frameworks for images, videos, and 3D content.
+I have published at ICLR and participated in top-tier competitions.  
+Currently, I am exploring efficient and controllable generation paradigms, aiming to build scalable frameworks for images, videos, and 3D content.
 
-**I am actively seeking PhD opportunities for Fall 2026**, with a focus on advancing the theoretical foundations and algorithmic innovations in structured generation, sparsity-aware modelling, and computational imaging.
+**I am actively seeking PhD opportunities for Fall 2026**, focusing on structured generation, sparsity-aware modelling, and computational imaging.
 
-Feel free to contact me at **SMARK2019@outlook.com**.
+Feel free to reach out at **SMARK2019@outlook.com**.
 
 ---
 
