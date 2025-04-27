@@ -20,7 +20,7 @@ Currently, I am exploring efficient and controllable generation paradigms, aimin
 
 **I am actively seeking PhD opportunities for Fall 2026**, focusing on structured generation, sparsity-aware modelling, and computational imaging.
 
-Feel free to reach out at **SMARK2019@outlook.com**.
+Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.com).
 
 ---
 
