@@ -12,11 +12,13 @@ layout: page
 
 Hi, I'm **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
-I'm an undergraduate student majoring in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (expected graduation in 2026). My research focuses on machine learning, compressed sensing, and computational imaging under the supervision of [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
+I'm an undergraduate student majoring in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (expected graduation in 2026).  
+My research focuses on machine learning, sparse representation, and computational imaging under the supervision of [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
 
-I have published research at prestigious venues like ICLR and participated in top-tier competitions. I'm currently exploring innovative computational methods to tackle challenging problems in image reconstruction, spectral imaging, and medical imaging.
+I have published research at prestigious venues like ICLR and participated in top-tier competitions.  
+Currently, I am exploring novel computational paradigms for efficient and controllable generation, aiming to design scalable frameworks for images, videos, and 3D content.
 
-**I am actively seeking PhD opportunities for Fall 2026**, aiming to deepen my research in advanced machine learning and computational imaging.
+**I am actively seeking PhD opportunities for Fall 2026**, with a focus on advancing the theoretical foundations and algorithmic innovations in structured generation, sparsity-aware modelling, and computational imaging.
 
 Feel free to contact me at **SMARK2019@outlook.com**.
 
@@ -25,55 +27,67 @@ Feel free to contact me at **SMARK2019@outlook.com**.
 ## Selected Publications
 
 ### Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement  
-  <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small>         <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><strong>📄 Paper</strong></a> | 
-        <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><strong>💻 Code</strong></a><br>
+  <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small>         
+  <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank"><strong>📄 Paper</strong></a> | 
+  <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><strong>💻 Code</strong></a><br>
   <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small>
 <div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
   <div>
     <img src="assets\images\PSR-SCI.png" alt="PSR-SCI Pipeline" style="width: 100%;">
   </div>
   <div>
-      Developed a novel subspace diffusion refinement framework for SCI to recover high-frequency details using minimal MSI data reconstruction. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over prior diffusion methods.  
-      <small>Keywords: spectral imaging, subspace decomposition, diffusion refinement, hardware-algorithm co-design</small>
+      Developed a novel subspace diffusion refinement framework for spectral compressive imaging (SCI), recovering high-frequency details from minimal measurements.  
+      Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over existing diffusion models.  
+      <small>Keywords: spectral imaging, sparsity modelling, diffusion refinement, hardware-algorithm co-design</small>
   </div>
 </div>
-
 
 ---
 
 ## Research Experience & Interests
 
 ### Research Projects
+- **Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement (Apr–Oct 2024)**  
+  Developed the PSR-SCI framework to solve ill-posed SCI reconstruction, leveraging spectral embedding and RGB diffusion models. Achieved 38.14 dB PSNR on KAIST with 10× faster inference. Spotlight paper at ICLR 2025 (Top 4.79%).
 
-- **Efficient Low-Rank and Sparse Model Compression** *(Oct 2023–Feb 2024)*  
-  Developed a Frank-Wolfe algorithm-based approach, achieving 10× compression on AlexNet with minimal accuracy loss.
+- **Multimodal Fusion for Target Detection (Nov 2024)**  
+  Integrated radar and infrared data for small object detection under limited samples and noise. Achieved 95% accuracy with 36 ms/frame latency. National First Prize, 19th "Challenge Cup."
 
-- **Unified Low-Rank Adaptation Framework (LoRA variants)** *(Jan–Apr 2024)*  
-  Conducted comparative analysis and proposed a unified abstraction for efficient large-model fine-tuning techniques.
+- **Fast MRI Reconstruction via Diffusion Models (Nov 2024–Present)**  
+  Developed innovative approaches for accelerated MRI reconstruction, integrating prior knowledge for efficient and reliable recovery. Submitted to a top-tier conference.
+
+- **Sparsity-aware Conditioning for Generative Models (Ongoing)**  
+  Working on scalable and controllable generation methods leveraging structured sparsity for diverse modalities.
 
 ### Research Interests
 
-My work bridges theoretical innovation and practical algorithmic solutions, focusing on:
+My research bridges theoretical modelling and practical algorithm design, currently focusing on:
 
-- **Machine Learning & Deep Learning**
-- **Compressed Sensing & Sparse Optimization**
-- **Image Reconstruction & Enhancement**
-- **Multispectral and Medical Imaging**
+- **Generative Modeling and Controllable Generation**  
+  (sparsity-aware generation, structure-guided diffusion, efficient sampling)
 
-I aim to leverage computational advancements to develop scalable, efficient imaging technologies, facilitating their adoption in both scientific research and clinical practice.
+- **Compressed Sensing and Sparse Optimization**  
+  (signal reconstruction, structural sparsity, underdetermined recovery)
+
+- **Image, Video, and 3D Reconstruction/Generation**
+
+- **Low-Level Vision and Computational Imaging**  
+  (spectral imaging, MRI acceleration, physics-driven restoration)
+
+I am particularly interested in advancing new generation paradigms that integrate sparse structures, efficient computation, and general-purpose applicability across modalities.
 
 ---
 
 ## Competitions & Projects
 
 - **The 19th "Challenge Cup" National Competition (First Prize)**  
-  Achieved over 95% accuracy in radar-infrared fused object detection under limited data conditions.
+  Achieved over 95% accuracy in radar-infrared fusion object detection under limited-sample, noise-intensive conditions.
 
 - **NTIRE Challenge (CVPR 2025)**  
-  Achieved 4th place in visual quality ranking by developing a novel diffusion model, compressed from 1.77B to 2.2M parameters while maintaining high performance.
+  Developed a novel diffusion-based image restoration system, compressing model parameters from 1.77B to 2.2M while retaining high visual quality.
 
 - **MetaMusic: Cross-Modal Music-Driven Visual Generation** *(Top 1/83 in Freshman Project)*  
-  Developed an innovative cross-modal generation system using CLIP embeddings for music-to-image translation. [💻 **Project**](https://github.com/SMARK2022/MetaMusic)
+  Designed a cross-modal generation pipeline using CLIP embeddings for music-to-image translation. [💻 **Project**](https://github.com/SMARK2022/MetaMusic)
 
 ---
 
@@ -91,7 +105,6 @@ I aim to leverage computational advancements to develop scalable, efficient imag
 
 ---
 
-Feel free to explore my [GitHub](https://github.com/SMARK2022) for open-source contributions, or connect via [email](mailto:SMARK2019@outlook.com) for potential collaborations!
+Feel free to explore my [GitHub](https://github.com/SMARK2022) for open-source projects, or reach out via [email](mailto:SMARK2019@outlook.com) for potential collaborations!
 
-Thanks for visiting! 😊
-
+Thanks for visiting! 🌟
