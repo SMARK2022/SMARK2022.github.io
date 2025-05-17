@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement</h1>
+            <div class="conference">@ ICLR 2025 Spotlight (Top 4.79%)</div>
+            <div class="authors">
+                <a href="#">Haijin Zeng<sup>*1</sup></a>,
+                <a href="#">Benteng Sun<sup>*2</sup></a>,
+                <a href="#">Yongyong Chen<sup>†2</sup></a>,
+                <a href="#">Jingyong Su<sup>†2</sup></a>,
+                <a href="#">Yong Xu<sup>2</sup></a>
+            </div>
+            <div class="affiliations">
+                <sup>1</sup>Harvard University,
+                <sup>2</sup>Harbin Institute of Technology (Shenzhen)<br>
+                <sup>*</sup>Equal contribution,
+                <sup>†</sup>Corresponding author
+            </div>
+            <div class="links">
+                <a href="https://github.com/SMARK2022/PSR-SCI" class="link-button" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    GitHub
+                </a>
+                <a href="https://arxiv.org/abs/xxxx.xxxxx" class="link-button" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M6.146 11.146a.5.5 0 0 1 .708 0L8 12.293l1.146-1.147a.5.5 0 1 1 .708.708l-1.5 1.5a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 0-.708z" />
+                        <path
+                            d="M14 4.5V11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4.5A2 2 0 0 1 4 2.5h1.343a3 3 0 0 1 2.12.879L8.879 4.8a1 1 0 0 0 .707.293H12a2 2 0 0 1 2 2zm-10.5-1a1 1 0 0 0-1 1V11a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2A2 2 0 0 1 9.5 2.5h-5z" />
+                    </svg>
+                    arXiv
+                </a>
+                <a href="https://github.com/SMARK2022/PSR-SCI#citation" class="link-button" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+                        <path
+                            d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+                    </svg>
+                    Citation
+                </a>
+            </div>
+        </header>
+
+        <div class="tldr">
+            <span class="tldr-header">TLDR</span>
+            We propose a novel Predict-and-unmixing-driven Subspace Diffusion Refinement framework (PSR-SCI) for
+            Spectral Compressive
+            Imaging (SCI) reconstruction. Our method addresses the challenges of limited MSI training data and high
+            computational cost of diffusion models for high-dimensional data, enabling efficient and high-quality MSI
+            recovery.
+        </div>
+
+        <div class="teaser">
+            <img src="images/teaser.png" alt="PSR-SCI Framework Overview" onerror="this.src='images/fig_teaser.png'">
+        </div>
+
+        <div class="section">
+            <h2>Abstract</h2>
+            <p>
+                Spectral Compressive Imaging (SCI) reconstruction is inherently ill-posed, offering multiple plausible
+                solutions from a single observation. Traditional deterministic methods typically struggle to effectively
+                recover high-frequency details. Although diffusion models offer promising solutions to this challenge,
+                their application is constrained by the limited training data and high computational demands associated
+                with multispectral images (MSIs), complicating direct training. To address these issues, we propose a
+                novel Predict-and-unmixing-driven-Subspace-Refine framework (PSR-SCI). This framework begins with a
+                cost-effective predictor that produces an initial, rough estimate of the MSI. Subsequently, we introduce
+                a unmixing-driven reversible spectral embedding module that decomposes the MSI into subspace images and
+                spectral coefficients. This decomposition facilitates the adaptation of pre-trained RGB diffusion models
+                and focuses refinement processes on high-frequency details, thereby enabling efficient diffusion
+                generation with minimal MSI data. Additionally, we design a high-dimensional guidance mechanism with
+                imaging consistency to enhance the model's efficacy. The refined subspace image is then reconstructed
+                back into an MSI using the reversible embedding, yielding the final MSI with full spectral resolution.
+                Experimental results on the standard KAIST and zero-shot datasets NTIRE, ICVL, and Harvard show that
+                PSR-SCI enhances visual quality and delivers PSNR and SSIM metrics comparable to existing diffusion,
+                transformer, and deep unfolding techniques. This framework provides a robust alternative to traditional
+                deterministic SCI reconstruction methods. <a href="https://github.com/SMARK2022/PSR-SCI"
+                    target="_blank">[Code and models]</a>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Key Contributions</h2>
+            <ul>
+                <li><strong>(i)</strong> A spectral unmixing-driven predict-and-subspace refine strategy (PSR-SCI) for
+                    SCI reconstruction that yields improved perceptual quality over deterministic methods and more
+                    efficient enhancement than typical diffusion models.</li>
+                <li><strong>(ii)</strong> A reversible decomposition module that utilizes hierarchical decomposition to
+                    efficiently implement spectral subspace learning while maintaining high reversibility.</li>
+                <li><strong>(iii)</strong> Focus on diffusion generation exclusively for high-frequency components,
+                    accelerating fine-tuning and significantly reducing required training data.</li>
+                <li><strong>(iv)</strong> High-dimensional guidance with SCI imaging consistency to enhance model
+                    efficacy.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Related Works</h2>
+            <p>
+                The existing framework for SCI reconstruction predominantly consists of <em>model-based, Plug-and-Play,
+                    End-to-end (E2E)</em>, and <em>Deep unfolding methods</em>.
+            </p>
+            <ul>
+                <li><strong>Model-based methods</strong> depend on hand-crafted image priors but require manual
+                    parameter tuning and have limited representation capacity.</li>
+                <li><strong>Plug-and-play (PnP) algorithms</strong> incorporate pre-trained denoising networks into
+                    traditional model-based methods but are limited by fixed pre-trained networks.</li>
+                <li><strong>End-to-end (E2E) algorithms</strong> leverage CNNs to establish a mapping function but often
+                    neglect fundamental principles of SCI systems.</li>
+                <li><strong>Deep unfolding methods</strong> utilize multi-stage networks with interpretability through
+                    explicit characterization of image priors.</li>
+                <li><strong>Diffusion models</strong> - Recent works like DiffSCI utilize pre-trained denoising
+                    diffusion models for RGB images as the denoiser within the PnP framework.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Method: PSR-SCI Framework</h2>
+            <div class="figure">
+                <img src="images/pipeline.png" alt="PSR-SCI Pipeline"
+                    onerror="this.src='https://via.placeholder.com/800x400?text=PSR-SCI+Pipeline'">
+                <div class="caption">
+                    <strong>Figure 1:</strong> PSR-SCI framework consists of three distinct modules: (a) initial
+                    predictor with frequency separator, (b) spectral unmixing-driven hierarchical spectral embedding,
+                    and (c) diffusion generation of high-frequency subspace images using pre-trained RGB models.
+                </div>
+            </div>
+
+            <h3>1. Problem Definition</h3>
+            <p>
+                SCI reconstruction is inherently ill-posed, offering multiple plausible solutions from a single
+                observation. Traditional methods struggle with high-frequency details, while diffusion models face
+                challenges with limited MSI training data and high computational demands.
+            </p>
+
+            <h3>2. Predict-and-unmixing-driven Subspace Diffusion Framework</h3>
+            <p>
+                Our framework begins with a cost-effective predictor that produces an initial MSI estimate. We separate
+                the frequency components and decompose the high-frequency component into a low-dimensional abundance map
+                and spectral coefficients using our reversible spectral embedding module.
+            </p>
+
+            <h3>3. Unmixing-Driven Reversible Spectral Embedding</h3>
+            <p>
+                The URSe module enables transformation of high-dimensional MSI into reduced low-dimensional subspace
+                images, with promising inverse mapping for reversal. This allows us to leverage diffusion models
+                pre-trained on large-scale RGB datasets.
+            </p>
+
+            <h3>4. Diffusion Refinement with High-dimensional Guidance</h3>
+            <p>
+                Our approach integrates a high-dimensional guidance mechanism into the diffusion sampling process,
+                enhancing alignment between the subspace diffusion-generated image and the ultimate high-dimensional MSI
+                reconstruction.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Experimental Results</h2>
+
+            <h3>Quantitative Evaluation</h3>
+            <div class="results-table">
+                <div class="table-caption"></div>
+                <strong>Table 1:</strong> Numerical evaluations between our PSR-SCI and state-of-the-art methods across
+                10 simulated scenes. The best results are in <span class="best">bold</span> and second-best are <span
+                    class="second-best">underlined</span>.
+            </div>
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead style="background-color: #d3d3d3;">
+                        <tr>
+                            <th>Algorithms</th>
+                            <th>Category</th>
+                            <th>Reference</th>
+                            <th>Average PSNR/SSIM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Traditional Methods -->
+                        <tr style="background-color: #f2f2f2;">
+                            <td>DeSCI</td>
+                            <td>Model</td>
+                            <td>TPAMI 2019</td>
+                            <td>25.27 / 0.748</td>
+                        </tr>
+
+                        <!-- CNN-based Methods -->
+                        <tr style="background-color: #ffdddd;">
+                            <td>$\lambda$-Net</td>
+                            <td>CNN</td>
+                            <td>ICCV 2019</td>
+                            <td>28.53 / 0.841</td>
+                        </tr>
+                        <tr style="background-color: #ffdddd;">
+                            <td>TSA-Net</td>
+                            <td>CNN</td>
+                            <td>ECCV 2020</td>
+                            <td>31.35 / 0.895</td>
+                        </tr>
+
+                        <!-- Transformer-based Methods -->
+                        <tr style="background-color: #ffdddd;">
+                            <td>HDNet</td>
+                            <td>Transformer</td>
+                            <td>CVPR 2022</td>
+                            <td>34.66 / 0.946</td>
+                        </tr>
+                        <tr style="background-color: #ffdddd;">
+                            <td>MST++</td>
+                            <td>Transformer</td>
+                            <td>CVPR 2022</td>
+                            <td>35.72 / 0.955</td>
+                        </tr>
+
+                        <!-- Deep Unfolding Methods -->
+                        <tr style="background-color: #ffffdd;">
+                            <td>DAUHST-3stg</td>
+                            <td>Deep Unfolding</td>
+                            <td>NeurIPS 2022</td>
+                            <td>37.21 / 0.959</td>
+                        </tr>
+
+                        <!-- Diffusion and Our Methods -->
+                        <tr style="background-color: #ddffdd;">
+                            <td>DAUHST-SP2</td>
+                            <td>Subspace prior</td>
+                            <td>Information Fusion 2024</td>
+                            <td><span class="second-best">37.61 / 0.966</span></td>
+                        </tr>
+                        <tr style="background-color: #ddffdd;">
+                            <td>DiffSCI</td>
+                            <td>Diffusion</td>
+                            <td>CVPR 2024</td>
+                            <td>35.28 / 0.916</td>
+                        </tr>
+                        <tr style="background-color: #ddffdd;">
+                            <td><strong>PSR-SCI-T</strong></td>
+                            <td>Diffusion</td>
+                            <td>Ours</td>
+                            <td>36.68 / 0.961</td>
+                        </tr>
+                        <tr style="background-color: #ddffdd;">
+                            <td><strong>PSR-SCI-D</strong></td>
+                            <td>Diffusion</td>
+                            <td>Ours</td>
+                            <td><span class="best">38.14 / 0.967</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <style>
+            .results-table {
+                margin: 20px 0;
+                font-size: 14px;
+            }
+
+            .table-caption {
+                margin-bottom: 10px;
+                font-style: italic;
+            }
+
+            .data-table {
+                width: 100%;
+                border-collapse: collapse;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            }
+
+            .data-table th,
+            .data-table td {
+                padding: 8px 12px;
+                text-align: center;
+                border: 1px solid #ddd;
+            }
+
+            .data-table th {
+                font-weight: bold;
+            }
+
+            .best {
+                font-weight: bold;
+                color: #006400;
+            }
+
+            .second-best {
+                text-decoration: underline;
+                color: #0000CD;
+            }
+
+            .table-responsive {
+                overflow-x: auto;
+            }
+        </style>
+
+        <p>
+            Our PSR-SCI-D model achieves state-of-the-art performance across all metrics on the KAIST dataset, with an
+            average PSNR of 38.14dB and SSIM of 0.967 - an improvement of nearly 1.4dB compared to leading
+            diffusion-based methods. The PSR-SCI-T variant also demonstrates competitive performance, highlighting the
+            effectiveness of our approach.
+        </p>
+        </tr>
+
+        <h3>Qualitative Results</h3>
+        <div class="figure">
+            <img src="images/simulation_results.png" alt="Simulation Results"
+                onerror="this.src='https://via.placeholder.com/800x400?text=Simulation+Results'">
+            <div class="caption">
+                <strong>Figure 2:</strong> Visual comparison on the KAIST dataset. Our method yields superior visual
+                effects with cleaner textures and fewer artifacts compared to other state-of-the-art methods.
+            </div>
+        </div>
+
+        <div class="figure">
+            <img src="images/real_dataset.png" alt="Real Dataset Results"
+                onerror="this.src='https://via.placeholder.com/800x300?text=Real+Dataset+Results'">
+            <div class="caption">
+                <strong>Figure 3:</strong> Visual comparison on a real dataset. PSR-SCI recovers more complete and
+                detailed shapes with fewer artifacts compared to other methods.
+            </div>
+        </div>
+
+        <h3>Zero-Shot Generalization</h3>
+        <div class="figure">
+            <img src="images/zero_shot.jpg" alt="Zero-Shot Results"
+                onerror="this.src='https://via.placeholder.com/800x300?text=Zero-Shot+Results'">
+            <div class="caption">
+                <strong>Figure 4:</strong> Generalization performance on zero-shot datasets (ICVL, NTIRE, Harvard). Our
+                model consistently outperforms competing methods in both PSNR and perceptual metrics.
+            </div>
+        </div>
+
+        <h3>Computational Efficiency</h3>
+        <p>
+            Our PSR-SCI model significantly reduces the computational burden, requiring only 8.9 seconds for 50 sampling
+            steps compared to 85 seconds for state-of-the-art diffusion-based methods, while achieving superior
+            performance.
+        </p>
+
+        <div class="section">
+            <h2>Conclusion</h2>
+            <p>
+                We introduced a new framework for spectral compressive imaging reconstruction that focuses on
+                reconstructing
+                high-frequency details by fine-tuning a diffusion model pre-trained on large-scale RGB images. Our
+                empirical
+                results demonstrate significant improvements in detail quality and superior metrics compared to current
+                state-of-the-art methods. We believe that our work introduces a novel direction in spectral compressive
+                imaging
+                reconstruction and establishes a robust benchmark for future research.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Citation</h2>
+            <pre>
+        @inproceedings{zeng2025spectral,
+        title={Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement},
+        author={Zeng, Haijin and Sun, Benteng and Chen, Yongyong and Su, Jingyong and Xu, Yong},
+        booktitle={The Thirteenth International Conference on Learning Representations}
+          year={2025}
+        }
+                </pre>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
