@@ -340,3 +340,93 @@ ul li {
     background: #4CAF50;
     color: white;
 }
+
+/* 表格适配和Lightbox样式增强 */
+@media (max-width: 600px) {
+    .data-table {
+        font-size: 0.8rem;
+    }
+    
+    .data-table th,
+    .data-table td {
+        padding: 4px 3px;
+        white-space: nowrap;
+        font-size: 0.8rem !important;
+    }
+    
+    .mobile-table {
+        width: max-content;
+        min-width: 100%;
+    }
+    
+    .table-responsive {
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+    }
+    
+    .table-responsive::-webkit-scrollbar {
+        height: 4px;
+    }
+    
+    .table-responsive::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+    .table-responsive::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+}
+
+/* 图片点击放大效果提示 */
+.figure img, .teaser img {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.figure img:hover, .teaser img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Lightbox样式覆盖 */
+.lb-outerContainer {
+    max-width: 95vw !important;
+}
+
+.lb-image {
+    max-width: 95vw !important;
+    max-height: 95vh !important;
+}
+
+.lb-dataContainer {
+    max-width: 95vw !important;
+}
+
+/* 优化表格在移动设备上的体验 */
+.table-responsive {
+    position: relative;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.table-responsive::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.7));
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .table-responsive::after {
+        opacity: 1;
+    }
+}
