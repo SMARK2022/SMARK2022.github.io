@@ -202,3 +202,71 @@ ul li {
         font-size: 1rem;
     }
 }
+@media (max-width: 600px) {
+    .container {
+        padding: 6px 1vw;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        padding-bottom: 2px;
+    }
+
+    h3 {
+        font-size: 0.95rem;
+    }
+
+    .conference,
+    .affiliations,
+    .authors,
+    .links,
+    .tldr,
+    .section,
+    .caption,
+    .project-description,
+    .project-tags,
+    .project-link,
+    .copy-button,
+    .citation-container,
+    .table-caption,
+    .data-table th,
+    .data-table td {
+        font-size: 0.97rem !important;
+    }
+
+    .teaser,
+    .figure,
+    .result-image {
+        margin: 12px 0;
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: 4px 2px;
+    }
+
+    .copy-button {
+        font-size: 0.95rem;
+        padding: 4px 8px;
+    }
+
+    pre,
+    code {
+        font-size: 0.92rem;
+    }
+
+    /* 让MathJax公式在小屏幕下更大 */
+    .mjx-chtml {
+        font-size: 1.15em !important;
+    }
+}
+
+/* 让MathJax公式在所有屏幕下都不会太小 */
+.mjx-chtml {
+    min-width: 0;
+    font-size: 1.08em;
+}
