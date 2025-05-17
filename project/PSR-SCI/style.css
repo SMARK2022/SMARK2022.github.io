@@ -270,3 +270,73 @@ ul li {
     min-width: 0;
     font-size: 1.08em;
 }
+
+.results-table {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.table-caption {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.data-table th,
+.data-table td {
+    padding: 8px 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.data-table th {
+    font-weight: bold;
+}
+
+.best {
+    font-weight: bold;
+    color: #006400;
+}
+
+.second-best {
+    text-decoration: underline;
+    color: #0000CD;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.citation-container {
+    position: relative;
+}
+
+.copy-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 6px 12px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.copy-button:hover {
+    background: #e0e0e0;
+}
+
+.copy-button.copied {
+    background: #4CAF50;
+    color: white;
+}
