@@ -154,7 +154,7 @@ sup,
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .caption {
@@ -174,7 +174,7 @@ sup,
 .table-container img {
     max-width: 100%;
     border-radius: 5px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 ul {
@@ -197,11 +197,12 @@ ul li {
     h2 {
         font-size: 1.1rem;
     }
-    
+
     h3 {
         font-size: 1rem;
     }
 }
+
 @media (max-width: 600px) {
     .container {
         padding: 6px 1vw;
@@ -346,32 +347,32 @@ ul li {
     .data-table {
         font-size: 0.8rem;
     }
-    
+
     .data-table th,
     .data-table td {
         padding: 4px 3px;
         white-space: nowrap;
         font-size: 0.8rem !important;
     }
-    
+
     .mobile-table {
         width: max-content;
         min-width: 100%;
     }
-    
+
     .table-responsive {
         -webkit-overflow-scrolling: touch;
         scrollbar-width: thin;
     }
-    
+
     .table-responsive::-webkit-scrollbar {
         height: 4px;
     }
-    
+
     .table-responsive::-webkit-scrollbar-track {
         background: #f1f1f1;
     }
-    
+
     .table-responsive::-webkit-scrollbar-thumb {
         background: #888;
         border-radius: 10px;
@@ -379,14 +380,16 @@ ul li {
 }
 
 /* 图片点击放大效果提示 */
-.figure img, .teaser img {
+.figure img,
+.teaser img {
     cursor: pointer;
     transition: transform 0.2s ease;
 }
 
-.figure img:hover, .teaser img:hover {
+.figure img:hover,
+.teaser img:hover {
     transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Lightbox样式覆盖 */
@@ -419,7 +422,7 @@ ul li {
     right: 0;
     width: 40px;
     height: 100%;
-    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.7));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7));
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -429,4 +432,69 @@ ul li {
     .table-responsive::after {
         opacity: 1;
     }
+}
+
+:root {
+    --ink: #333;
+    --muted: #666;
+    --bg: #f9f9fa;
+    --card: #fff;
+    --brand: #1a73e8;
+    --line: #eee;
+    --shadow: 0 4px 6px rgba(0, 0, 0, .1);
+}
+
+/* ======= Top sticky nav ======= */
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+}
+
+.topbar .nav {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.brand {
+    text-decoration: none;
+    color: var(--ink);
+    font-weight: 800;
+    letter-spacing: .3px;
+    font-size: 1.5rem;
+}
+
+.brand:hover {
+    color: var(--brand);
+}
+
+.nav-spacer {
+    flex: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #555;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    font-size: .95rem;
+    padding: 6px 2px;
+    border-bottom: 2px solid transparent;
+    transition: color .2s, border-color .2s;
+}
+
+.nav-link:hover {
+    color: var(--ink);
+}
+
+.nav-link.active {
+    color: var(--ink);
+    border-color: #4b4b4b;
 }

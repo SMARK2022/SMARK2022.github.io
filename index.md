@@ -60,7 +60,7 @@ I am particularly interested in advancing new generation paradigms that integrat
 
 ---
 
-## Competitions & Projects
+### Competitions & Projects
 
 - **The 19th "Challenge Cup" National Competition (First Prize)**  
   Achieved over 95% accuracy in radar-infrared fusion object detection under limited-sample, noise-intensive conditions.
