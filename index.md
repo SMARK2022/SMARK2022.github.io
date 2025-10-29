@@ -8,17 +8,15 @@ layout: page
 
 ## About Me
 
-<img src="assets\images\证件照.jpeg" class="floatpic">
+<img src="assets\images\个人照片.webp" class="floatpic">
 
 Hi, I'm **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
-I'm an undergraduate student in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (graduating in 2026).  
+I'm an undergraduate student in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (graduating in 2026).  
 My research centers on machine learning, sparse representation, and computational imaging, advised by [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
 
-I have published at ICLR and participated in top-tier competitions.  
+I have published at ICLR and participated in top-tier competitions.  
 Currently, I am exploring efficient and controllable generation paradigms, aiming to build scalable frameworks for images, videos, and 3D content.
-
-**I am actively seeking PhD opportunities for Fall 2026**, focusing on structured generation, sparsity-aware modelling, and computational imaging.
 
 Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.com).
 
@@ -45,48 +43,33 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
 
 ## Research Experience & Interests
 
-### Research Projects
-- **Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement (Apr–Oct 2024)**  
-  Developed the PSR-SCI framework to solve ill-posed SCI reconstruction, leveraging spectral embedding and RGB diffusion models. Achieved 38.14 dB PSNR on KAIST with 10× faster inference. Spotlight paper at ICLR 2025 (Top 4.79%).
-
-- **Multimodal Fusion for Target Detection (Nov 2024)**  
-  Integrated radar and infrared data for small object detection under limited samples and noise. Achieved 95% accuracy with 36 ms/frame latency. National First Prize, 19th "Challenge Cup."
-
-- **Fast MRI Reconstruction via Diffusion Models (Nov 2024–Present)**  
-  Developed innovative approaches for accelerated MRI reconstruction, integrating prior knowledge for efficient and reliable recovery. Submitted to a top-tier conference.
-
-- **Sparsity-aware Conditioning for Generative Models (Ongoing)**  
-  Working on scalable and controllable generation methods leveraging structured sparsity for diverse modalities.
-
 ### Research Interests
 
 My research bridges theoretical modelling and practical algorithm design, currently focusing on:
 
-- **Generative Modeling and Controllable Generation**  
-  (sparsity-aware generation, structure-guided diffusion, efficient sampling)
+- **Multimodal Understanding & Generation**
+  (cross-modal synthesis, language-guided visual generation, modality fusion)
 
-- **Compressed Sensing and Sparse Optimization**  
-  (signal reconstruction, structural sparsity, underdetermined recovery)
+- **Generative Modeling and Controllable Generation**  
+  (structure-guided diffusion, efficient sampling, scalable 2D/3D/video frameworks)
 
-- **Image, Video, and 3D Reconstruction/Generation**
+- **Computational Imaging & Low-Level Vision**  
+  (spectral imaging, MRI acceleration, physics-driven restoration, compressed sensing)
 
-- **Low-Level Vision and Computational Imaging**  
-  (spectral imaging, MRI acceleration, physics-driven restoration)
-
-I am particularly interested in advancing new generation paradigms that integrate sparse structures, efficient computation, and general-purpose applicability across modalities.
+I am particularly interested in advancing new generation paradigms that integrate **multimodal understanding**, sparse structures, and efficient computation across 2D, 3D, and video modalities.
 
 ---
 
 ## Competitions & Projects
 
-- **The 19th "Challenge Cup" National Competition (First Prize)**  
-  Achieved over 95% accuracy in radar-infrared fusion object detection under limited-sample, noise-intensive conditions.
+- **The 19th "Challenge Cup" National Competition (First Prize)**  
+  Achieved over 95% accuracy in radar-infrared fusion object detection under limited-sample, noise-intensive conditions.
 
-- **NTIRE Challenge (CVPR 2025)**  
-  Developed a novel diffusion-based image restoration system, compressing model parameters from 1.77B to 2.2M while retaining high visual quality.
+- **NTIRE Challenge (CVPR 2025)**  
+  Developed a novel diffusion-based image restoration system, compressing model parameters from 1.77B to 2.2M while retaining high visual quality.
 
-- **MetaMusic: Cross-Modal Music-Driven Visual Generation** *(Top 1/83 in Freshman Project)*  
-  Designed a cross-modal generation pipeline using CLIP embeddings for music-to-image translation. [💻 **Project**](https://github.com/SMARK2022/MetaMusic)
+- **MetaMusic: Cross-Modal Music-Driven Visual Generation** *(Top 1/83 in Freshman Project)*  
+  Designed a cross-modal generation pipeline using CLIP embeddings for music-to-image translation. [💻 **Project**](https://github.com/SMARK2022/MetaMusic)
 
 ---
 
@@ -99,8 +82,8 @@ I am particularly interested in advancing new generation paradigms that integrat
 
 ### Scholarships
 
+- **National Scholarship (Top 0.2%)**, MoE, PRC (2024-2025)
 - **High-Level Innovation Award (Top 0.1%)**, HIT (2024, Awarded 50,000 RMB)
-- **Second-Class Scholarship**, Undergraduate Academic Excellence Award (2023 & 2024, HITSZ)
 
 ---
 
