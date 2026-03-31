@@ -24,7 +24,7 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
 
 ## Selected Publications
 
-### Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement  
+### Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement
   <small>Haijin Zeng\*, **Benteng Sun**\*, Yongyong Chen, Jingyong Su, Yong Xu</small><br>
   <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank">
   <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small><strong>📄 Paper</strong></a> | <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><strong>💻 Code</strong></a> | <a href="project/PSR-SCI/index.html" target="_blank"><strong>🌐 Project</strong></a><br>
@@ -33,8 +33,8 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
     <img src="assets/images/PSR-SCI.png" alt="PSR-SCI Pipeline" style="width: 100%;">
   </div>
   <div>
-      Developed a novel subspace diffusion refinement framework for spectral compressive imaging (SCI), recovering high-frequency details from minimal measurements.  
-      Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over existing diffusion models.  
+      Developed a novel subspace diffusion refinement framework for spectral compressive imaging (SCI), recovering high-frequency details from minimal measurements.
+      Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over existing diffusion models.
       <small>Keywords: spectral imaging, sparsity modelling, diffusion refinement</small>
   </div>
 </div>
