@@ -1,337 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿---
+layout: page
+permalink: /project/index.html
+title: Projects
+---
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Research Projects - SMARK</title>
-    <style>
-        :root {
-            --ink: #333;
-            --muted: #666;
-            --bg: #f9f9fa;
-            --card: #fff;
-            --brand: #1a73e8;
-            --line: #eee;
-            --shadow: 0 4px 6px rgba(0, 0, 0, .1);
-        }
+## Research Projects
 
-        body {
-            font-family: 'Noto Sans', 'Segoe UI', Arial, sans-serif;
-            line-height: 1.6;
-            color: #222;
-            margin: 0;
-            padding: 0;
-            background: var(--bg);
-        }
+Welcome to my research projects page. Here you'll find information about my work in the fields of computer vision, image processing, and deep learning.
 
-        /* ======= Top sticky nav ======= */
-        .topbar {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: #fff;
-            border-bottom: 1px solid var(--line);
-        }
+---
 
-        .topbar .nav {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 18px;
-        }
-
-        .brand {
-            text-decoration: none;
-            color: var(--ink);
-            font-weight: 800;
-            letter-spacing: .3px;
-            font-size: 1.5rem;
-        }
-
-        .brand:hover {
-            color: var(--brand);
-        }
-
-        .nav-spacer {
-            flex: 1;
-        }
-
-        .nav-link {
-            text-decoration: none;
-            color: #555;
-            font-weight: 700;
-            letter-spacing: .8px;
-            text-transform: uppercase;
-            font-size: .95rem;
-            padding: 6px 2px;
-            border-bottom: 2px solid transparent;
-            transition: color .2s, border-color .2s;
-        }
-
-        .nav-link:hover {
-            color: var(--ink);
-        }
-
-        .nav-link.active {
-            color: var(--ink);
-            border-color: #4b4b4b;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        h1 {
-            font-size: 2.4rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: #333;
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: var(--muted);
-            margin-bottom: 25px;
-        }
-
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-            gap: 30px;
-            margin-top: 30px;
-        }
-
-        .project-card {
-            background: var(--card);
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: transform .3s, box-shadow .3s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 7px 15px rgba(0, 0, 0, .1);
-        }
-
-        .project-image {
-            width: 100%;
-            height: 200px;
-            background: #f1f1f1;
-            background-size: cover;
-            background-position: center;
-        }
-
-        .project-content {
-            padding: 20px;
-        }
-
-        .project-title {
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: var(--brand);
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .project-title:hover {
-            text-decoration: underline;
-            color: #174ea6;
-        }
-
-        .project-description {
-            color: #555;
-            margin-bottom: 15px;
-            font-size: .95rem;
-        }
-
-        .project-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 15px;
-        }
-
-        .tag {
-            background: #e8f0fe;
-            color: #1967d2;
-            font-size: .8rem;
-            padding: 4px 10px;
-            border-radius: 15px;
-        }
-
-        .project-link {
-            display: inline-block;
-            text-decoration: none;
-            color: var(--brand);
-            font-weight: 500;
-            transition: color .2s;
-        }
-
-        .project-link:hover {
-            color: #174ea6;
-            text-decoration: underline;
-        }
-
-        .intro-section {
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
-            margin-bottom: 30px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid var(--line);
-            color: #666;
-            font-size: .9rem;
-        }
-
-        @media (max-width:600px) {
-            .container {
-                padding: 10px 2vw;
-            }
-
-            h1 {
-                font-size: 1.6rem;
-            }
-
-            .subtitle {
-                font-size: 1rem;
-            }
-
-            .intro-section {
-                padding: 16px;
-                font-size: .98rem;
-            }
-
-            .projects-grid {
-                grid-template-columns: 1fr;
-                gap: 16px;
-                margin-top: 16px;
-            }
-
-            .project-card {
-                border-radius: 7px;
-            }
-
-            .project-image {
-                height: 120px;
-            }
-
-            .project-content {
-                padding: 12px;
-            }
-
-            .project-title {
-                font-size: 1.05rem;
-            }
-
-            .project-description {
-                font-size: .92rem;
-            }
-
-            .tag {
-                font-size: .75rem;
-                padding: 3px 8px;
-            }
-
-            footer {
-                font-size: .85rem;
-                margin-top: 30px;
-                padding-top: 10px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <!-- Top navigation with a clear "back to home" path -->
-    <div class="topbar" role="navigation" aria-label="Primary">
-        <div class="nav">
-            <!-- Left brand: click to go back to homepage -->
-            <a class="brand" href="https://smark2022.github.io/" aria-label="Go to Home">SMARK</a>
-            <div class="nav-spacer"></div>
-            <!-- Right links: anchors go to sections on your homepage -->
-            <a class="nav-link" href="https://smark2022.github.io/">About Me</a>
-            <a class="nav-link active" href="#" aria-current="page">Projects</a>
-            <a class="nav-link" href="https://smark2022.github.io/hobbies">Hobbies</a>
-        </div>
+<div class="pub-card">
+  <div class="pub-title">Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement</div>
+  <div class="pub-authors">Haijin Zeng*, <strong>Benteng Sun</strong>*, Yongyong Chen, Jingyong Su, Yong Xu</div>
+  <div class="pub-venue"><span class="badge badge-red">ICLR 2025 Spotlight · Top 4.79%</span></div>
+  <div class="pub-grid">
+    <div>
+      <img src="PSR-SCI/images/teaser.png" alt="PSR-SCI Framework Overview">
     </div>
-
-    <div class="container">
-        <header>
-            <h1>Research Projects</h1>
-            <div class="subtitle">Exploring Image Processing, Computer Vision and Machine Learning</div>
-        </header>
-
-        <div class="intro-section">
-            <p>
-                Welcome to my research projects page. Here you'll find information about my work in the fields of
-                computer vision, image processing, and deep learning. My research focuses on developing novel algorithms
-                and frameworks to address challenging problems in these domains.
-            </p>
-        </div>
-
-        <div class="projects-grid">
-            <!-- PSR-SCI Project -->
-            <div class="project-card">
-                <div class="project-image" style="background-image:url('PSR-SCI/images/teaser.png');"></div>
-                <div class="project-content">
-                    <a href="PSR-SCI/index.html" class="project-title">
-                        Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement
-                    </a>
-                    <div class="project-description">
-                        A novel framework for spectral compressive imaging (SCI) reconstruction that leverages diffusion
-                        models
-                        to recover high-frequency details from a single compressed measurement, addressing the
-                        challenges of
-                        limited MSI training data and high computational demands.
-                    </div>
-                    <div class="project-tags">
-                        <span class="tag">Spectral Imaging</span>
-                        <span class="tag">Diffusion Models</span>
-                        <span class="tag">Image Reconstruction</span>
-                    </div>
-                    <a href="PSR-SCI/index.html" class="project-link">View Project →</a>
-                </div>
-            </div>
-
-            <!-- Placeholder for future projects -->
-            <div class="project-card">
-                <div class="project-image" style="background-color:#e8f0fe;"></div>
-                <div class="project-content">
-                    <div class="project-title">Coming Soon: Future Research Projects</div>
-                    <div class="project-description">
-                        More research projects will be added here as they are completed. Stay tuned for upcoming work on
-                        deep learning, computer vision, and more.
-                    </div>
-                    <div class="project-tags">
-                        <span class="tag">Upcoming</span>
-                        <span class="tag">Research</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <p>© 2025 SMARK Research. All rights reserved.</p>
-        </footer>
+    <div>
+      A novel framework for spectral compressive imaging (SCI) reconstruction that leverages diffusion models to recover high-frequency details from a single compressed measurement, addressing the challenges of limited MSI training data and high computational demands.<br>
+      <small><em>Keywords: Spectral Imaging, Diffusion Models, Image Reconstruction</em></small>
     </div>
-</body>
+  </div>
+  <div class="pub-links" style="margin-top: 10px;">
+    <a href="PSR-SCI/index.html" target="_blank">Project Page</a>
+    <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank">Paper</a>
+    <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank">Code</a>
+  </div>
+</div>
 
-</html>
+<div class="pub-card" style="opacity: 0.6;">
+  <div class="pub-title">More Projects Coming Soon</div>
+  <div class="pub-authors">Stay tuned for upcoming work on deep learning, computer vision, and more.</div>
+  <div class="pub-venue"><span class="badge badge-blue">Upcoming</span></div>
+</div>
