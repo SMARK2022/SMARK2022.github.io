@@ -8,7 +8,7 @@ layout: page
 
 ## About Me
 
-<img src="assets\images\个人照片.webp" class="floatpic">
+<img src="assets/images/个人照片.webp" class="floatpic">
 
 Hi, I'm **Benteng Sun (SMARK, 孙奔腾)**.<br>
 
@@ -30,7 +30,7 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
   <small><em><span style="color:red">ICLR 2025 Accepted (Spotlight) • Top 4.79%</span></em></small><strong>📄 Paper</strong></a> | <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank"><strong>💻 Code</strong></a> | <a href="project/PSR-SCI/index.html" target="_blank"><strong>🌐 Project</strong></a><br>
 <div style="display: grid; grid-template-columns: 35% 65%; align-items: flex-start; gap: 15px;">
   <div>
-    <img src="assets\images\PSR-SCI.png" alt="PSR-SCI Pipeline" style="width: 100%;">
+    <img src="assets/images/PSR-SCI.png" alt="PSR-SCI Pipeline" style="width: 100%;">
   </div>
   <div>
       Developed a novel subspace diffusion refinement framework for spectral compressive imaging (SCI), recovering high-frequency details from minimal measurements.  
