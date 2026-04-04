@@ -4,37 +4,32 @@ permalink: /hobbies/index.html
 title: Hobbies
 ---
 
-## 🤝 Volunteer Work
+## Volunteer Work
 
-- **Service Hours**: Shenzhen Volunteer: 36.25 hrs | iVolunteer: 87.07 hrs | **Total: 123.32 hrs**
-- **Roles**: Publicity Department Member, Harbin Institute of Technology (Shenzhen) Volunteer Association
-- **Key Responsibilities**: Event documentation and promotion, participating in various community service initiatives including educational support programs, public welfare lectures, and neighborhood services.
+- **Total Service Hours**: 123.32 hrs (Shenzhen Volunteer: 36.25 hrs, iVolunteer: 87.07 hrs)
+- **Role**: Publicity Department Member, HIT (Shenzhen) Volunteer Association
+- **Activities**: Event documentation, educational support programs, public welfare lectures, and community service initiatives
 
 ---
 
-## 📸 Photography
+## Photography
 
 ### Professional Engagement
 
-- Presidium Member & Photographer, Campus Student Media Center (Leading photography/videography operations and technical training)
-- Publicity Director for College of Science Student Union
-- Founding President of Emerging Astronomy Club (In preparation)
+- Presidium Member & Photographer, Campus Student Media Center
+- Publicity Director, College of Science Student Union
+- Founding President, Emerging Astronomy Club (in preparation)
 
-**Major Contributions**
+### Contributions
 
 - Documented 50+ institutional events through professional visual storytelling
-- Designed 30+ event backdrops and promotional materials for campus organizations
+- Designed 30+ event backdrops and promotional materials
 - Conducted photography workshops for Student Media Center and College of Science
-- Contributed visual content to the campus WeChat official account and video platform, including editing highlight reels for events like the X9 League
+- Contributed visual content to campus WeChat official account and video platform
 
-**Media Recognition**
+### Media Recognition
 
-Works featured by:
-- Guangdong Provincial Media: Southern Daily
-- Shenzhen Municipal Platforms: Shenzhen Special Zone Daily, Shenzhen Education Bureau
-- Nanshan District Official Channels
-- National Astronomy Organizations: China Starry Sky Alliance (CSVA), Shenzhen Astronomy Network
-- Selected as header image for university official website
+Works featured by Southern Daily (Guangdong), Shenzhen Special Zone Daily, Shenzhen Education Bureau, Nanshan District Official Channels, China Starry Sky Alliance (CSVA), and selected as header image for university official website.
 
 ### Awards
 
@@ -81,12 +76,12 @@ Works featured by:
 
 ---
 
-## 🏃 Sports & Fitness
+## Sports & Fitness
 
-### 🥋 Martial Arts
+### Martial Arts
 
-- Core Member of University Karate Team
-- **3rd Place**, 2024 Guangdong Collegiate Karate Championship (Men's 79+kg Division)
+- Core Member, University Karate Team
+- **3rd Place**, 2024 Guangdong Collegiate Karate Championship (Men's 79+ kg Division)
 
 ### Outdoor Activities
 

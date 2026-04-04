@@ -2,23 +2,25 @@
 layout: page
 ---
 
-# 👋 Welcome!
+# About Me
+
+<img src="assets/images/个人照片.webp" class="floatpic" alt="Benteng Sun">
+
+I am **Benteng Sun (孙奔腾)**, an undergraduate student in Data Science (Mathematics Category) at **Harbin Institute of Technology, Shenzhen** (graduating in 2026). My research centers on machine learning, sparse representation, and computational imaging, advised by [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
+
+I have published at **ICLR** and participated in top-tier competitions. Currently, I am exploring efficient and controllable generation paradigms, aiming to build scalable frameworks for images, videos, and 3D content.
+
+<p style="text-indent:0;">📧 Contact: <a href="mailto:SMARK2019@outlook.com"><strong>SMARK2019@outlook.com</strong></a></p>
 
 ---
 
-## About Me
+## Research Interests
 
-<img src="assets/images/个人照片.webp" class="floatpic">
+- **Multimodal Understanding & Generation** — cross-modal synthesis, language-guided visual generation, modality fusion
 
-Hi, I'm **Benteng Sun (SMARK, 孙奔腾)**.
+- **Generative Modeling & Controllable Generation** — structure-guided diffusion, efficient sampling, scalable 2D/3D/video frameworks
 
-I'm an undergraduate student in Data Science (Mathematics Category) at Harbin Institute of Technology, Shenzhen (graduating in 2026).
-My research centers on machine learning, sparse representation, and computational imaging, advised by [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
-
-I have published at ICLR and participated in top-tier competitions.
-Currently, I am exploring efficient and controllable generation paradigms, aiming to build scalable frameworks for images, videos, and 3D content.
-
-Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.com).
+- **Computational Imaging & Low-Level Vision** — spectral imaging, MRI acceleration, physics-driven restoration, compressed sensing
 
 ---
 
@@ -33,11 +35,11 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
       <img src="assets/images/PSR-SCI.png" alt="PSR-SCI Pipeline">
     </div>
     <div>
-      Developed a novel subspace diffusion refinement framework for spectral compressive imaging (SCI), recovering high-frequency details from minimal measurements. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over existing diffusion models.<br>
+      A novel subspace diffusion refinement framework for spectral compressive imaging, recovering high-frequency details from minimal measurements. Achieved 38.14 dB PSNR on KAIST dataset with 10× speedup over existing diffusion models.<br>
       <small><em>Keywords: spectral imaging, sparsity modelling, diffusion refinement</em></small>
     </div>
   </div>
-  <div class="pub-links" style="margin-top: 10px;">
+  <div class="pub-links">
     <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank">📄 Paper</a>
     <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank">💻 Code</a>
     <a href="project/PSR-SCI/index.html" target="_blank">🌐 Project</a>
@@ -46,30 +48,16 @@ Feel free to reach out at [**SMARK2019@outlook.com**](mailto:SMARK2019@outlook.c
 
 ---
 
-## Research Interests
-
-My research bridges theoretical modelling and practical algorithm design, currently focusing on:
-
-- **Multimodal Understanding & Generation** — cross-modal synthesis, language-guided visual generation, modality fusion
-
-- **Generative Modeling and Controllable Generation** — structure-guided diffusion, efficient sampling, scalable 2D/3D/video frameworks
-
-- **Computational Imaging & Low-Level Vision** — spectral imaging, MRI acceleration, physics-driven restoration, compressed sensing
-
-I am particularly interested in advancing new generation paradigms that integrate **multimodal understanding**, sparse structures, and efficient computation across 2D, 3D, and video modalities.
-
----
-
 ## Competitions & Projects
 
 - **The 19th "Challenge Cup" National Competition** <span class="badge badge-gold">First Prize</span>
-  Achieved over 95% accuracy in radar-infrared fusion object detection under limited-sample, noise-intensive conditions.
+  <br>Achieved over 95% accuracy in radar-infrared fusion object detection under limited-sample, noise-intensive conditions.
 
 - **NTIRE Challenge (CVPR 2025)**
-  Developed a novel diffusion-based image restoration system, compressing model parameters from 1.77B to 2.2M while retaining high visual quality.
+  <br>Developed a diffusion-based image restoration system, compressing model parameters from 1.77B to 2.2M while retaining high visual quality.
 
 - **MetaMusic: Cross-Modal Music-Driven Visual Generation** <span class="badge badge-blue">Top 1/83</span>
-  Designed a cross-modal generation pipeline using CLIP embeddings for music-to-image translation. [💻 **Project**](https://github.com/SMARK2022/MetaMusic)
+  <br>Cross-modal generation pipeline using CLIP embeddings for music-to-image translation. [💻 Project](https://github.com/SMARK2022/MetaMusic)
 
 ---
 
@@ -85,12 +73,6 @@ I am particularly interested in advancing new generation paradigms that integrat
 ### Scholarships
 
 <ul class="award-list">
-  <li><strong>National Scholarship (Top 0.2%)</strong> — MoE, PRC, 2024-2025</li>
+  <li><strong>National Scholarship (Top 0.2%)</strong> — MoE, PRC, 2024–2025</li>
   <li><strong>High-Level Innovation Award (Top 0.1%)</strong> — HIT, 2024 (Awarded 50,000 RMB)</li>
 </ul>
-
----
-
-Feel free to explore my [GitHub](https://github.com/SMARK2022) for open-source projects, or reach out via [email](mailto:SMARK2019@outlook.com) for potential collaborations!
-
-Thanks for visiting! 🌟
