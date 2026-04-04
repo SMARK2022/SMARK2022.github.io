@@ -3149,6 +3149,7 @@ img.floatpic {
   margin-bottom: 1em;
   width: 22%;
   min-width: 140px;
+  max-width: 220px;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
 }
@@ -3450,21 +3451,6 @@ blockquote p + p {
 .article-wrap h2 .emoji,
 .article-wrap h3 .emoji {
   margin-right: 6px;
-}
-
-/* --- Responsive Main Content Width --- */
-@media only screen and (min-width: 50em) {
-  #main article {
-    width: 54%;
-    margin-left: 0;
-  }
-}
-
-@media only screen and (min-width: 86.375em) {
-  #main article {
-    width: 52%;
-    margin-left: 0;
-  }
 }
 
 /* --- Smooth page transitions --- */

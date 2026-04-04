@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="assets/images/个人照片.webp" class="floatpic" alt="Benteng Sun">
+<img src="assets/images/个人照片.webp" class="floatpic" alt="Benteng Sun" width="220">
 
 I am **Benteng Sun (孙奔腾)**, an undergraduate student in Data Science (Mathematics Category) at **Harbin Institute of Technology, Shenzhen** (graduating in 2026). My research centers on machine learning, sparse representation, and computational imaging, advised by [Prof. Yongyong Chen](https://scholar.google.com/citations?user=ny2mn-cAAAAJ).
 
