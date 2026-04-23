@@ -1,7 +1,7 @@
-﻿---
+---
 layout: page
-permalink: /project/index.html
 title: Projects
+permalink: /project/
 ---
 
 <h2>Research Projects</h2>
@@ -12,7 +12,7 @@ title: Projects
   <div class="pub-venue"><span class="badge badge-red">ICLR 2025 Spotlight · Top 4.79%</span></div>
   <div class="pub-grid">
     <div>
-      <img src="PSR-SCI/images/teaser.png" alt="PSR-SCI Framework Overview">
+      <img src="/project/PSR-SCI/images/teaser.png" alt="PSR-SCI Framework Overview">
     </div>
     <div>
       A novel framework for spectral compressive imaging (SCI) reconstruction that leverages diffusion models to recover high-frequency details from a single compressed measurement, addressing the challenges of limited MSI training data and high computational demands.<br>
@@ -20,7 +20,7 @@ title: Projects
     </div>
   </div>
   <div class="pub-links">
-    <a href="PSR-SCI/index.html" target="_blank">🌐 Project Page</a>
+    <a href="/project/PSR-SCI/index.html" target="_blank">🌐 Project Page</a>
     <a href="https://openreview.net/pdf?id=Q150eWkQ4I" target="_blank">📄 Paper</a>
     <a href="https://github.com/SMARK2022/PSR-SCI" target="_blank">💻 Code</a>
   </div>
