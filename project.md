@@ -7,6 +7,24 @@ permalink: /project/
 <h2>Research Projects</h2>
 
 <div class="pub-card">
+  <div class="pub-title">Deep LoRA-Unfolding Networks for Image Restoration</div>
+  <div class="pub-authors">Xiangming Wang, Haijin Zeng, <strong>Benteng Sun</strong>, Jiezhang Cao, Kai Zhang, Qiangqiang Shen</div>
+  <div class="pub-venue"><span class="badge badge-purple">IEEE TIP 2026 · IF 10.6</span></div>
+  <div class="pub-grid">
+    <div>
+      <img src="/assets/images/DeepLoRA.png" alt="LoRun Framework">
+    </div>
+    <div>
+      A novel deep unfolding framework that introduces stage-specific LoRA adapters to dynamically modulate denoising behavior across unfolding stages. Achieves N× parameter reduction for N-stage networks while maintaining on-par or better performance across multiple image restoration tasks.<br>
+      <small><em>Keywords: Deep Unfolding, Low-Rank Adaptation, Image Restoration</em></small>
+    </div>
+  </div>
+  <div class="pub-links">
+    <a href="https://ieeexplore.ieee.org/document/11391488" target="_blank">📄 Paper</a>
+  </div>
+</div>
+
+<div class="pub-card">
   <div class="pub-title">Spectral Compressive Imaging via Unmixing-driven Subspace Diffusion Refinement</div>
   <div class="pub-authors">Haijin Zeng*, <strong>Benteng Sun</strong>*, Yongyong Chen, Jingyong Su, Yong Xu</div>
   <div class="pub-venue"><span class="badge badge-red">ICLR 2025 Spotlight · Top 4.79%</span></div>
