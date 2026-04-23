@@ -32,6 +32,14 @@ body {
 }
 
 /* --- Refined Section Headings --- */
+.article-wrap h1 {
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  color: #222;
+  font-weight: 700;
+}
+
 .article-wrap h2 {
   font-size: 1.45em;
   margin-top: 1.4em;
@@ -51,6 +59,20 @@ body {
   height: 1.2em;
   background: linear-gradient(135deg, #1a73e8 0%, #6a1b9a 100%);
   border-radius: 2px;
+}
+
+/* Special styling for "Hi there" greeting */
+.article-wrap h2:first-of-type {
+  font-size: 1.35em;
+  color: #333;
+  font-weight: 600;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  padding-left: 0;
+}
+
+.article-wrap h2:first-of-type::before {
+  display: none;
 }
 
 .article-wrap h3 {
@@ -298,6 +320,32 @@ img.floatpic:hover {
   font-size: 0.8em;
   line-height: 1.55;
   margin-bottom: 0.4em;
+}
+
+.article-author-top {
+  background: linear-gradient(135deg, #fafbfc 0%, #ffffff 100%);
+  padding: 1.5em 1.2em;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid #e8ecf0;
+}
+
+.article-author-top a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  padding: 4px 0;
+}
+
+.article-author-top a:hover {
+  color: #1a73e8 !important;
+  transform: translateX(3px);
+}
+
+.article-author-top a i,
+.article-author-top a img {
+  flex-shrink: 0;
 }
 
 /* --- Blockquote Artistic Style --- */
