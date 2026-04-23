@@ -1,0 +1,365 @@
+/* ========================================================
+   Refined Academic Homepage Styles v3.0
+   Artistic, elegant design with precise spacing
+   ======================================================== */
+
+/* --- Global Refinements --- */
+body {
+  letter-spacing: 0.01em;
+}
+
+/* --- Reduced Spacing & Line Heights --- */
+.article-wrap p + p {
+  margin-top: 0.5em;
+}
+
+.article-wrap hr {
+  margin: 1.5em 0;
+  border-top: 1px solid #e8e8e8;
+  position: relative;
+}
+
+.article-wrap hr::before {
+  content: '✦';
+  position: absolute;
+  left: 50%;
+  top: -0.6em;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 0 0.8em;
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+/* --- Refined Section Headings --- */
+.article-wrap h2 {
+  font-size: 1.45em;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: none;
+  position: relative;
+  padding-left: 0.6em;
+}
+
+.article-wrap h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 3px;
+  height: 1.2em;
+  background: linear-gradient(135deg, #1a73e8 0%, #6a1b9a 100%);
+  border-radius: 2px;
+}
+
+.article-wrap h3 {
+  font-size: 1.1em;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  padding-left: 10px;
+  border-left: 2px solid #1a73e8;
+}
+
+.article-wrap h4 {
+  font-size: 0.98em;
+  margin-top: 1em;
+  margin-bottom: 0.35em;
+  color: #555;
+}
+
+/* --- Refined Publication Cards --- */
+.pub-card {
+  background: linear-gradient(135deg, #fafbfc 0%, #ffffff 100%);
+  border: 1px solid #e8ecf0;
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin-bottom: 1.2em;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pub-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #1a73e8 0%, #6a1b9a 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pub-card:hover::before {
+  opacity: 1;
+}
+
+.pub-card:hover {
+  box-shadow: 0 6px 20px rgba(26, 115, 232, 0.12);
+  border-color: #d4dce5;
+  transform: translateY(-2px);
+}
+
+.pub-card .pub-title {
+  font-size: 1.08em;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.pub-card .pub-authors {
+  font-size: 0.88em;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.pub-card .pub-venue {
+  margin-bottom: 8px;
+}
+
+.pub-card .pub-links {
+  margin-top: 12px;
+  padding-top: 10px;
+}
+
+.pub-card .pub-links a {
+  padding: 4px 12px;
+  margin-right: 6px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 0.82em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  position: relative;
+  overflow: visible;
+}
+
+.pub-card .pub-links a:hover {
+  box-shadow: 0 2px 6px rgba(26, 115, 232, 0.2);
+  transform: translateY(-1px);
+}
+
+/* --- Refined Badges --- */
+.badge {
+  padding: 2px 9px;
+  border-radius: 10px;
+  font-size: 0.76em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.badge-red {
+  background: linear-gradient(135deg, #fff0f0 0%, #ffe8e8 100%);
+}
+
+.badge-blue {
+  background: linear-gradient(135deg, #e8f0fe 0%, #d2e3fc 100%);
+}
+
+.badge-green {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+}
+
+.badge-gold {
+  background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+}
+
+.badge-purple {
+  background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+}
+
+/* --- Refined Award List (Reduced Line Height) --- */
+.award-list {
+  margin: 0.4em 0 1em;
+}
+
+.award-list li {
+  padding: 6px 0 6px 1.2em;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 0.92em;
+  line-height: 1.45;
+  position: relative;
+}
+
+.award-list li::before {
+  content: '◆';
+  position: absolute;
+  left: 0;
+  color: #1a73e8;
+  font-size: 0.7em;
+  top: 0.65em;
+}
+
+.award-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* --- Refined Photo Gallery --- */
+.photo-gallery {
+  gap: 10px;
+  margin: 1.2em 0;
+}
+
+.photo-gallery img {
+  border-radius: 8px;
+  border: 2px solid #f0f0f0;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05) rotate(0.5deg);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  border-color: #1a73e8;
+  z-index: 10;
+}
+
+/* --- Refined List Spacing --- */
+.article-wrap ul li {
+  margin-bottom: 0.35em;
+  line-height: 1.55;
+}
+
+.article-wrap > ul > li {
+  margin-bottom: 0.6em;
+}
+
+/* --- Float Picture Enhancement --- */
+img.floatpic {
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  border: 3px solid #fff;
+  outline: 1px solid #e8e8e8;
+  transition: all 0.3s ease;
+}
+
+img.floatpic:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  transform: scale(1.02);
+}
+
+/* --- Navigation Enhancement --- */
+.navigation-wrapper {
+  border-bottom: 1px solid #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.top-navigation li a {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.top-navigation li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #1a73e8 0%, #6a1b9a 100%);
+  transition: width 0.3s ease;
+}
+
+.top-navigation li a:hover::after {
+  width: 100%;
+}
+
+.top-navigation li a:hover {
+  border-bottom: none;
+}
+
+.top-navigation-current {
+  border-bottom: none !important;
+}
+
+.top-navigation-current::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #333 0%, #555 100%);
+}
+
+/* --- Author Bio Enhancement --- */
+.article-author-top .bio-photo {
+  border: 4px solid #fff;
+  outline: 2px solid #e8e8e8;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.article-author-top .bio-photo:hover {
+  transform: scale(1.08) rotate(2deg);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.article-author-top p {
+  font-size: 0.8em;
+  line-height: 1.55;
+  margin-bottom: 0.4em;
+}
+
+/* --- Blockquote Artistic Style --- */
+blockquote {
+  border-left: 4px solid transparent;
+  border-image: linear-gradient(180deg, #1a73e8 0%, #6a1b9a 100%) 1;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* --- Footer Refinement --- */
+.footer-wrap {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding-top: 1.8em;
+  padding-bottom: 2.2em;
+}
+
+/* --- Smooth Animations --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Subtle Background Pattern --- */
+body {
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(26, 115, 232, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(106, 27, 154, 0.02) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* --- Selection Style --- */
+::selection {
+  background-color: #e8f0fe;
+  color: #1a73e8;
+}
+
+::-moz-selection {
+  background-color: #e8f0fe;
+  color: #1a73e8;
+}
+
+/* --- Scrollbar Styling (Webkit) --- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #1a73e8 0%, #6a1b9a 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #1557b0 0%, #4a148c 100%);
+}

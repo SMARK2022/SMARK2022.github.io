@@ -74,6 +74,9 @@ I have published at **ICLR** and participated in top-tier competitions. Currentl
 - **NTIRE Challenge (CVPR 2025)**
   <br>Developed a diffusion-based image restoration system, compressing model parameters from 1.77B to 2.2M while retaining high visual quality.
 
+- **SMARK Media Tools** <span class="badge badge-blue">Open Source</span>
+  <br>GPU-accelerated photography management toolbox with intelligent grouping and aesthetic scoring. [💻 GitHub](https://github.com/SMARK2022/electron-media-toolbox)
+
 - **MetaMusic: Cross-Modal Music-Driven Visual Generation** <span class="badge badge-blue">Top 1/83</span>
   <br>Cross-modal generation pipeline using CLIP embeddings for music-to-image translation. [💻 Project](https://github.com/SMARK2022/MetaMusic)
 
