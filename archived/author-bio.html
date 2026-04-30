@@ -1,0 +1,40 @@
+<img src="{{ site.url }}/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo">
+
+<p style="text-indent:0;margin-top:0.8em;font-size:1em;font-weight:700;font-style:normal;color:#222;line-height:1.3;">{{ site.owner.name }}</p>
+
+<p style="text-indent:0;margin-top:0.5em;font-size:0.85em;color:#555;line-height:1.5;">Undergraduate Student</p>
+
+<p style="text-indent:0;margin-top:0.3em;font-size:0.82em;color:#666;line-height:1.5;">📍 Shenzhen, China</p>
+
+<p style="text-indent:0;margin-top:0.3em;font-size:0.82em;color:#666;line-height:1.5;">🏫 Harbin Institute of Technology</p>
+
+<div style="margin-top:1.5em;padding-top:1.2em;border-top:1px solid #e8e8e8;">
+
+{% if site.owner.email %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank" style="font-size:0.85em;"><i class="icon-mail"></i> Email</a></p>{% endif %}
+
+{% if site.owner.cv %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="{{ site.owner.cv }}" style="font-size:0.85em;"><img src="{{ site.url }}/assets/logo/icons8-cv-100.png" width="16.5" height="16.5"> CV</a></p>{% endif %}
+
+{% if site.owner.scholar %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="{{ site.owner.scholar }}" style="font-size:0.85em;"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></p>{% endif %}
+
+{% if site.owner.github %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="https://github.com/{{ site.owner.github }}" style="font-size:0.85em;"><i class="icon-github"></i> GitHub</a></p>{% endif %}
+
+{% if site.owner.linkedin %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="https://linkedin.com/in/{{ site.owner.linkedin }}" style="font-size:0.85em;"><i class="icon-linkedin"></i> LinkedIn</a></p>{% endif %}
+
+{% if site.owner.twitter %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="https://twitter.com/{{ site.owner.twitter }}" style="font-size:0.85em;"><i class="icon-twitter"></i> Twitter</a></p>{% endif %}
+
+{% if site.owner.researchgate %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="{{ site.owner.researchgate }}" style="font-size:0.85em;"><img src="{{ site.url }}/assets/logo/icons8-rg.png" width="14" height="14"> ResearchGate</a></p>{% endif %}
+
+{% if site.owner.facebook %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="https://facebook.com/{{ site.owner.facebook }}" style="font-size:0.85em;"><i class="icon-facebook"></i> Facebook</a></p>{% endif %}
+
+{% if site.owner.instagram %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="https://instagram.com/{{ site.owner.instagram }}" style="font-size:0.85em;"><i class="icon-instagram"></i> Instagram</a></p>{% endif %}
+
+{% if site.owner.zhihu %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="{{ site.owner.zhihu }}" style="font-size:0.85em;"><img src="{{ site.url }}/assets/logo/icons8-zhihu-96.png" width="15.8" height="15.8"> Zhihu</a></p>{% endif %}
+
+{% if site.owner.bilibili %}<p style="text-indent:0;margin-bottom:0.5em;"><a href="https://space.bilibili.com/{{ site.owner.bilibili }}" style="font-size:0.85em;"><img src="{{ site.url }}/assets/logo/icons8-retro-tv-100.png" width="15" height="15"> Bilibili</a></p>{% endif %}
+
+</div>
+
+<div style="margin-top:1.5em;padding-top:1.2em;border-top:1px solid #e8e8e8;">
+  <p style="text-indent:0;font-size:0.78em;color:#888;line-height:1.5;margin-bottom:0.4em;">Research Interests</p>
+  <p style="text-indent:0;font-size:0.75em;color:#666;line-height:1.6;margin-bottom:0;">Machine Learning<br>Computational Imaging<br>Generative Models</p>
+</div>

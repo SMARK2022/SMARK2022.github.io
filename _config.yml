@@ -38,13 +38,15 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 links:
   - title: About Me
     url: /
+  - title: Publications
+    url: /publications/
   - title: Projects
     url: /project/
   - title: Hobbies
     url: /hobbies/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: China/Shenzhen
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
 # markdown: kramdown
@@ -76,6 +78,6 @@ disqus:
   shortname: lancecai
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace", "archived"]
 
 # Latest update by Benteng Sun.
