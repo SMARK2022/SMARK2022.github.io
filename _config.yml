@@ -3,6 +3,7 @@ title: Benteng Sun
 # description: Two roads diverged in woods, I took the one less traveled by.
 #Comment out url when working locally to resolve base urls correctly
 url: https://smark2022.github.io
+production_url: https://smark2022.github.io
 
 # Owner/author information
 owner:
@@ -38,8 +39,6 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 links:
   - title: About Me
     url: /
-  - title: Publications
-    url: /publications/
   - title: Projects
     url: /project/
   - title: Hobbies

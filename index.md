@@ -64,6 +64,19 @@ Contact: [SMARK2019@outlook.com](mailto:SMARK2019@outlook.com)
   </div>
 </div>
 
+<div class="pub-card">
+  <div class="pub-title">Evacuation Dynamics and Socioeconomic Disparities During a Tropical Cyclone–Blackout–Heatwave Compound Hazard Event</div>
+  <div class="pub-authors">Xin Wang, Wei Zhai, Kerry Nice, <strong>Benteng Sun</strong>, Xueyin Bai, Haoming Qin, Huanchun Huang</div>
+  <div class="pub-venue"><span class="badge badge-green">Transportation Research Part D · Accepted</span></div>
+  <div class="pub-grid">
+    <div style="display:flex;align-items:center;justify-content:center;background:var(--c-rule-light,#f3f4f6);border-radius:4px;min-height:120px;font-size:0.82em;color:var(--c-faint,#9ca3af);">[image]</div>
+    <div>
+      An empirical study of evacuation dynamics under compound hazards (tropical cyclone, blackout, heatwave), revealing how socioeconomic disparities shape evacuation behavior and mobility patterns during cascading disaster events.<br>
+      <small><em>Keywords: compound hazards, evacuation dynamics, socioeconomic disparities, transportation</em></small>
+    </div>
+  </div>
+</div>
+
 ---
 
 ## Competitions & Projects
