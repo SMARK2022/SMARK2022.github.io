@@ -573,14 +573,23 @@ body.page .award-list li strong {
 }
 
 /* ---------------------------------------------------------
-   14. Photo Gallery — tight grid, subtle hover
+   14. Photo Gallery — Masonry Layout
    --------------------------------------------------------- */
 body.page .photo-gallery {
-  gap: 8px;
+  display: block; /* Override grid */
+  column-count: 3;
+  column-gap: 8px;
   margin: 1.5em 0;
 }
 
 body.page .photo-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto !important; /* Override 4/3 */
+  object-fit: initial !important;
+  margin-bottom: 8px;
+  break-inside: avoid;
   border-radius: var(--r-sm);
   border: 1px solid var(--c-rule-light);
   transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
@@ -690,8 +699,12 @@ body.page .footer-wrap a:hover {
   }
 
   body.page .photo-gallery {
-    gap: 6px;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    column-count: 2;
+    column-gap: 6px;
+  }
+  
+  body.page .photo-gallery img {
+    margin-bottom: 6px;
   }
 }
 
@@ -705,7 +718,7 @@ body.page .footer-wrap a:hover {
   }
   
   body.page .photo-gallery {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    column-count: 2;
   }
 }
 

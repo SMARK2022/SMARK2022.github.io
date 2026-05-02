@@ -7,6 +7,19 @@ permalink: /project/
 ## Research Projects
 
 <div class="pub-card">
+  <div class="pub-title">Evacuation Dynamics and Socioeconomic Disparities During a Tropical Cyclone–Blackout–Heatwave Compound Hazard Event</div>
+  <div class="pub-authors">Xin Wang, Wei Zhai, Kerry Nice, <strong>Benteng Sun</strong>, Xueyin Bai, Haoming Qin, Huanchun Huang</div>
+  <div class="pub-venue"><span class="badge badge-green">Transportation Research Part D · Accepted</span></div>
+  <div class="pub-grid">
+    <div class="placeholder-img"><span>TRD Paper</span></div>
+    <div>
+      An empirical study of evacuation dynamics under compound hazards (tropical cyclone, blackout, heatwave), revealing how socioeconomic disparities shape evacuation behavior and mobility patterns during cascading disaster events.<br>
+      <small><em>Keywords: compound hazards, evacuation dynamics, socioeconomic disparities, transportation</em></small>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
   <div class="pub-title">Deep LoRA-Unfolding Networks for Image Restoration</div>
   <div class="pub-authors">Xiangming Wang, Haijin Zeng, <strong>Benteng Sun</strong>, Jiezhang Cao, Kai Zhang, Qiangqiang Shen</div>
   <div class="pub-venue"><span class="badge badge-purple">IEEE TIP 2026 · IF 10.6</span></div>
