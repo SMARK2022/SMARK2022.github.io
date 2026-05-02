@@ -268,7 +268,7 @@ body.page .article-wrap h2 {
   font-size: 1.6em;
   font-weight: 700;
   color: var(--c-ink);
-  margin-top: 2.2em;
+  margin-top: 1.5em;
   margin-bottom: 0.6em;
   padding-bottom: 0.4em;
   border-bottom: 1px solid var(--c-rule);
@@ -361,7 +361,7 @@ body.page .article-wrap small em {
 body.page .article-wrap hr {
   border: 0;
   border-top: 1px solid var(--c-rule-light);
-  margin: 2.5em 0;
+  margin: 1.8em 0;
 }
 
 /* ---------------------------------------------------------

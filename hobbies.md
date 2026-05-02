@@ -6,7 +6,7 @@ title: Hobbies
 
 ## Volunteer Work
 
-- **Total Service Hours**: 123.32 hrs (Shenzhen Volunteer: 36.25 hrs, iVolunteer: 87.07 hrs)
+- **Total Service Hours**: 127.65 hrs (Shenzhen Volunteer)
 - **Role**: Publicity Department Member, HIT (Shenzhen) Volunteer Association
 - **Activities**: Event documentation, educational support programs, public welfare lectures, and community service initiatives
 
