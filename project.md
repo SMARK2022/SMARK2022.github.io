@@ -53,7 +53,9 @@ permalink: /project/
   <div class="pub-authors"><strong>Benteng Sun</strong></div>
   <div class="pub-venue"><span class="badge badge-blue">Open Source · Apache 2.0</span></div>
   <div class="pub-grid">
-    <div style="display:flex;align-items:center;justify-content:center;background:var(--c-rule-light,#f3f4f6);border-radius:4px;min-height:120px;font-size:0.82em;color:var(--c-faint,#9ca3af);">[image]</div>
+    <div class="placeholder-img">
+      <span>Photography Tool</span>
+    </div>
     <div>
       A local media management tool for photographers featuring intelligent grouping via HSV histogram similarity, aesthetic scoring using ZJU LAR-IQA algorithm (ONNX Runtime / DirectML acceleration), and one-click export. Performance: ~3ms/frame thumbnail generation, ~1s/frame quality assessment.<br>
       <small><em>Keywords: Image Quality Assessment, GPU Acceleration, Media Management</em></small>
@@ -69,7 +71,9 @@ permalink: /project/
   <div class="pub-authors"><strong>Benteng Sun</strong> et al.</div>
   <div class="pub-venue"><span class="badge badge-blue">Top 1/83 · Freshman Annual Research Project</span></div>
   <div class="pub-grid">
-    <div style="display:flex;align-items:center;justify-content:center;background:var(--c-rule-light,#f3f4f6);border-radius:4px;min-height:120px;font-size:0.82em;color:var(--c-faint,#9ca3af);">[image]</div>
+    <div class="placeholder-img">
+      <span>Cross-Modal Vis</span>
+    </div>
     <div>
       A cross-modal generation pipeline using CLIP embeddings for music-to-image translation. Designed a unified framework that bridges audio understanding and visual generation.<br>
       <small><em>Keywords: Cross-Modal Generation, CLIP, Music-to-Image</em></small>
